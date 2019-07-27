@@ -1,0 +1,15 @@
+.logo-style {
+  width: 3em;
+  margin-left: 2em;
+  margin-right: 2em;
+}
+
+.nav-menu {
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: 2em;
+  margin-right: 2em;
+  padding: 0 2em;
+  font-size: 1em;
+  font-weight: bolder;
+}
