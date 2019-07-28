@@ -6,12 +6,8 @@ import "../css/layout.css"
 const Layout = ({ children }) => {
   return (
     <div className="container">
+      <br />
       <Header className="container" />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
       <br />
       <div>{children}</div>
       <br />
