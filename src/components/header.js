@@ -5,25 +5,25 @@ import "../css/header-style.css"
 
 const Header = () => {
   return (
-    <Navbar bg="dark" variant="dark">
+    <Navbar fixed="top" bg="dark" variant="dark">
       <Nav className="mx-auto">
-        <Nav.Link className="nav-menu" href="../pages/index.js">
+        <Nav.Link className="nav-menu" href="/">
           Home
         </Nav.Link>
-        <Nav.Link className="nav-menu" href="../pages/portfolio.js">
+        <Nav.Link className="nav-menu" href="/portfolio">
           Portfolio
         </Nav.Link>
-        <Nav.Link className="nav-menu" href="../pages/experience.js">
+        <Nav.Link className="nav-menu" href="/experience.js">
           Experience
         </Nav.Link>
-        <Navbar.Brand href="#home">
+        <Navbar.Brand href="/">
           <img src={Logo} className="logo-style" alt="" />
         </Navbar.Brand>
-        <Nav.Link className="nav-menu" href="../pages/aboutme.js">
-          About Me
+        <Nav.Link className="nav-menu" href="/about.js">
+          About
         </Nav.Link>
-        <Nav.Link className="nav-menu" href="../pages/contact.js">
-          Contact Me
+        <Nav.Link className="nav-menu" href="/contact.js">
+          Contact
         </Nav.Link>
         <Nav.Link
           className="nav-menu"

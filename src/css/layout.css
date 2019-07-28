@@ -1,0 +1,10 @@
+body {
+  align-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%vw;
+  font-size: 1em;
+  background-image: url("../images/portfolio-bg.jpg");
+  background-size: cover;
+  background-position-y: center;
+}
