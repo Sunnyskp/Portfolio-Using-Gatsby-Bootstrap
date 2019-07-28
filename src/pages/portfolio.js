@@ -17,7 +17,7 @@ const Portfolio = () => {
   return (
     <Layout>
       <div>
-        <Card bg="dark" text="white">
+        <Card>
           <Card.Body>
             <h1>Websites managed by me</h1>
           </Card.Body>

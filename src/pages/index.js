@@ -27,7 +27,13 @@ const Home = () => {
             and simple."
           </Card.Text>
           <button type="button" className="btn btn-info">
-            Download Resume
+            <a
+              className="text-white text-center"
+              target="_blank"
+              href="https://www.linkedin.com/in/sunnyskp"
+            >
+              Download Resume
+            </a>
           </button>
         </Card.Body>
       </Card>
