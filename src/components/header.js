@@ -18,7 +18,7 @@ const Header = () => {
           </Nav.Link>
         </Nav.Item>
         <Nav.Item className="nav-menu">
-          <Nav.Link className="nav-menu" href="/experience.js">
+          <Nav.Link className="nav-menu" href="/experience">
             Experience
           </Nav.Link>
         </Nav.Item>
@@ -26,12 +26,12 @@ const Header = () => {
           <img src={Logo} className="logo-style" alt="" />
         </Navbar.Brand>
         <Nav.Item className="nav-menu">
-          <Nav.Link className="nav-menu" href="/about.js">
+          <Nav.Link className="nav-menu" href="/about">
             About Me
           </Nav.Link>
         </Nav.Item>
         <Nav.Item className="nav-menu">
-          <Nav.Link className="nav-menu" href="/contact.js">
+          <Nav.Link className="nav-menu" href="/contact">
             Contact Me
           </Nav.Link>
         </Nav.Item>
