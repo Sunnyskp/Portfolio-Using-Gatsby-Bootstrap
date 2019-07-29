@@ -23,7 +23,7 @@ const Header = () => {
         </Nav.Item>
         <Nav.Item className="nav-menu">
           <Nav.Link className="nav-menu-link" href="/experience">
-            Experience
+            Education
           </Nav.Link>
         </Nav.Item>
         <Nav.Item className="nav-menu">
