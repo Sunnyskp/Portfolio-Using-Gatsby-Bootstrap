@@ -19,12 +19,14 @@ const Home = () => {
           <Card.Title>
             <h1>Sunny Krishnan Pillai</h1>
           </Card.Title>
-          <Card.Subtitle className="mb-2">
+          <Card.Subtitle className="mb-2 text-dark">
             <b>Full Stack Web-Developer | Software Engineer | IT Manager</b>
           </Card.Subtitle>
-          <Card.Text>
-            "I design and develop solutions that makes people's lives exciting
-            and simple."
+          <Card.Text className="text-dark">
+            <b>
+              "I design and develop solutions that makes people's lives exciting
+              and simple."
+            </b>
           </Card.Text>
           <button type="button" className="btn btn-info">
             <a
@@ -32,7 +34,7 @@ const Home = () => {
               target="_blank"
               href="https://www.linkedin.com/in/sunnyskp"
             >
-              Download Resume
+              View Resume
             </a>
           </button>
         </Card.Body>
