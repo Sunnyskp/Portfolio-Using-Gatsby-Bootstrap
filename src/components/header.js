@@ -5,39 +5,45 @@ import "../css/header-style.css"
 
 const Header = () => {
   return (
-    <Navbar.Collapse id="responsive-navbar-nav" class="navbar-expand-lg">
-      <Nav className="justify-content-between" activeKey="/home">
+    <Navbar.Collapse class="navbar-expand-lg">
+      <Nav
+        id="responsive-navbar-nav"
+        className="justify-content-between"
+        activeKey="/home"
+      >
         <Nav.Item className="nav-menu">
-          <Nav.Link className="nav-menu" href="/">
+          <Nav.Link className="nav-menu-link" href="/">
             Home
           </Nav.Link>
         </Nav.Item>
         <Nav.Item className="nav-menu">
-          <Nav.Link className="nav-menu" href="/portfolio">
+          <Nav.Link className="nav-menu-link" href="/portfolio">
             Portfolio
           </Nav.Link>
         </Nav.Item>
         <Nav.Item className="nav-menu">
-          <Nav.Link className="nav-menu" href="/experience">
+          <Nav.Link className="nav-menu-link" href="/experience">
             Experience
           </Nav.Link>
         </Nav.Item>
-        <Navbar.Brand className="nav-menu" href="/">
-          <img src={Logo} className="logo-style" alt="" />
-        </Navbar.Brand>
         <Nav.Item className="nav-menu">
-          <Nav.Link className="nav-menu" href="/about">
+          <Nav.Link className="nav-menu-link" href="/">
+            <img src={Logo} className="logo-style" alt="" />
+          </Nav.Link>
+        </Nav.Item>
+        <Nav.Item className="nav-menu">
+          <Nav.Link className="nav-menu-link" href="/about">
             About Me
           </Nav.Link>
         </Nav.Item>
         <Nav.Item className="nav-menu">
-          <Nav.Link className="nav-menu" href="/contact">
+          <Nav.Link className="nav-menu-link" href="/contact">
             Contact Me
           </Nav.Link>
         </Nav.Item>
         <Nav.Item className="nav-menu">
           <Nav.Link
-            className="nav-menu"
+            className="nav-menu-link"
             href="https://github.com/Sunnyskp"
             target="_blank"
           >

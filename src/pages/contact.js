@@ -5,18 +5,16 @@ import Facebook from "../images/Facebook.svg"
 import GitHub from "../images/Github.svg"
 import Layout from "../components/Layout"
 
-import "../css/contact.css"
-
 const Contact = () => {
   return (
     <Layout>
-      <Card className="text-center text-dark contact-card-style">
+      <Card bg="info" className="text-center text-white">
         <Card.Header>
           <h1>Have a question or want to work together?</h1>
         </Card.Header>
         <Card.Body>
           <CardDeck>
-            <Card bg="info" className="text-light">
+            <Card bg="light" className="text-light">
               <Card.Body>
                 <Container>
                   <Row>
@@ -42,7 +40,7 @@ const Contact = () => {
                 </Card.Text>
               </Card.Body>
             </Card>
-            <Card bg="info" className="text-light">
+            <Card bg="light" className="text-light">
               <Card.Body>
                 <Container>
                   <Row>
@@ -68,7 +66,7 @@ const Contact = () => {
                 </Card.Text>
               </Card.Body>
             </Card>
-            <Card bg="info" className="text-light">
+            <Card bg="light" className="text-light">
               <Card.Body>
                 <Container>
                   <Row>

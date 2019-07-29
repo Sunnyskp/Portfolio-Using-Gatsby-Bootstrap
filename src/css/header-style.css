@@ -4,20 +4,34 @@ html {
 }
 
 .logo-style {
-  width: 3em;
+  width: 4em;
   margin-left: 2em;
   margin-right: 2em;
 }
 
 .nav-menu {
   margin: auto;
-  color: rgb(0, 13, 56);
+  color: rgb(0, 0, 0);
   font-size: 1em;
   font-weight: bold;
 }
 
+.nav-menu-link {
+  margin: auto;
+  color: rgb(255, 255, 255);
+  font-size: 1em;
+  font-weight: bold;
+  text-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
+}
+
 @media screen and (max-width: 995px) {
   .logo-style {
-    display: none;
+    width: 2em;
+  }
+
+  #responsive-navbar-nav {
+    display: grid;
+    grid-template-columns: 1fr;
+    align-content: center;
   }
 }
