@@ -15,9 +15,11 @@ import "../css/portfolio-style.css"
 const Portfolio = () => {
   return (
     <Layout>
-      <Card bg="dark" className="text-center">
+      <Card bg="light" className="text-center text-dark">
         <Card.Body>
-          <h1>Projects Developed by Me</h1>
+          <h1 className="text-dark">
+            <b>Projects Developed by Me</b>
+          </h1>
         </Card.Body>
       </Card>
 
@@ -146,9 +148,11 @@ const Portfolio = () => {
       </div>
 
       <div>
-        <Card bg="dark" className="text-center">
+        <Card bg="light" className="text-center">
           <Card.Body>
-            <h1>Projects Managed by Me</h1>
+            <h1 className="text-dark">
+              <b>Projects Managed by Me</b>
+            </h1>
           </Card.Body>
         </Card>
 

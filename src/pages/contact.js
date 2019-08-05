@@ -8,9 +8,23 @@ import Layout from "../components/Layout"
 const Contact = () => {
   return (
     <Layout>
-      <Card bg="info" className="text-center text-white">
-        <Card.Header>
-          <h1>Have a question or want to work together?</h1>
+      <Card
+        border="primary"
+        style={{
+          background: "none",
+        }}
+        className="text-center text-white"
+      >
+        <Card.Header
+          style={{
+            textShadow:
+              "1px 1px 2px rgb(0, 0, 0), 0 0 1em rgb(0, 22, 218), 0 0 0.2em rgb(0, 0, 110)",
+          }}
+          className="text-center text-light"
+        >
+          <h4>
+            <b> Have a question or want to work together?</b>
+          </h4>
         </Card.Header>
         <Card.Body>
           <CardDeck>
@@ -24,12 +38,19 @@ const Contact = () => {
                         target="_blank"
                         href="https://www.linkedin.com/in/sunnyskp"
                       >
-                        <Image src={LinkedIn} rounded />
+                        <Image
+                          src={LinkedIn}
+                          style={{
+                            width: "12em",
+                            padding: "0.25em",
+                          }}
+                          rounded
+                        />
                       </a>
                     </Col>
                   </Row>
                 </Container>
-                <Card.Text>
+                <Card.Text className="text-light">
                   <a
                     className="nav-menu"
                     target="_blank"
@@ -50,12 +71,19 @@ const Contact = () => {
                         href="https://github.com/Sunnyskp"
                         target="_blank"
                       >
-                        <Image src={GitHub} rounded />
+                        <Image
+                          style={{
+                            width: "12em",
+                            padding: "0.25em",
+                          }}
+                          src={GitHub}
+                          rounded
+                        />
                       </a>
                     </Col>
                   </Row>
                 </Container>
-                <Card.Text>
+                <Card.Text className="text-light">
                   <a
                     className="nav-menu"
                     href="https://github.com/Sunnyskp"
@@ -76,13 +104,19 @@ const Contact = () => {
                         href="https://www.facebook.com/skp.sunny"
                         target="_blank"
                       >
-                        {" "}
-                        <Image src={Facebook} rounded />
+                        <Image
+                          style={{
+                            width: "12em",
+                            padding: "0.25em",
+                          }}
+                          src={Facebook}
+                          rounded
+                        />
                       </a>
                     </Col>
                   </Row>
                 </Container>
-                <Card.Text>
+                <Card.Text className="text-light">
                   <a
                     className="nav-menu"
                     href="https://www.facebook.com/skp.sunny"
@@ -96,14 +130,19 @@ const Contact = () => {
           </CardDeck>
         </Card.Body>
         <Card.Footer>
-          <Card.Text>
-            If you wanna get in touch, talk to me about a project collaboration
-            or just say hi, send an email to{" "}
-            <em>
-              {" "}
-              <strong>contact@sunnyskp.ca</strong>
-            </em>{" "}
-            and ~let's talk.
+          <Card.Text
+            style={{
+              textShadow:
+                "1px 1px 2px rgb(0, 0, 0), 0 0 1em rgb(0, 22, 218), 0 0 0.2em rgb(0, 0, 110)",
+            }}
+            className="text-light"
+          >
+            <h5>
+              If you wanna get in touch, talk to me about a project
+              collaboration or just say hi, send an email to{" "}
+              <em>contact@sunnyskp.ca</em>, call me at
+              <em> +1 (437) 772 3637</em> and ~let's talk.
+            </h5>
           </Card.Text>
         </Card.Footer>
       </Card>
