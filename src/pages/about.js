@@ -41,6 +41,7 @@ const About = () => {
           </Card.Text>
         </Card.ImgOverlay>
       </Card>
+      <br />
     </Layout>
   )
 }
