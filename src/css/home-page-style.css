@@ -14,16 +14,11 @@ h1 {
   top: 57%;
   left: 65%;
   transform: translate(-50%, -50%);
-  color: rgb(231, 231, 231);
+  color: rgb(255, 255, 255);
 }
 
 .head-shot {
   width: 18em;
-}
-
-.hero-style {
-  background-image: url("../images/problem-solved.png");
-  background-size: cover;
 }
 
 .card-style {

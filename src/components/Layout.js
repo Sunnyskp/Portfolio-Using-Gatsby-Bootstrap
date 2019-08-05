@@ -9,11 +9,9 @@ const Layout = ({ children }) => {
     <div>
       <Container>
         <Header />
+        <main>{children}</main>
       </Container>
-      <main>{children}</main>
-      <Container>
-        <Footer />
-      </Container>
+      <Footer />
     </div>
   )
 }

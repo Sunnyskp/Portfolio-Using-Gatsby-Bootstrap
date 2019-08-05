@@ -5,6 +5,7 @@ html {
 
 .logo-style {
   width: 3em;
+  margin-top: 0.25em;
   margin-left: 2em;
   margin-right: 2em;
 }
@@ -18,10 +19,11 @@ html {
 
 .nav-menu-link {
   margin: auto;
-  color: rgb(255, 255, 255);
+  color: #edf5e1;
   font-size: 1em;
   font-weight: bold;
-  text-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
+  text-shadow: 1px 1px 2px rgb(0, 0, 0), 0 0 1em rgb(0, 22, 218),
+    0 0 0.2em rgb(0, 0, 110);
 }
 
 @media screen and (max-width: 995px) {

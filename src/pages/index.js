@@ -19,10 +19,16 @@ const Home = () => {
           <Card.Title>
             <h1>Sunny Krishnan Pillai</h1>
           </Card.Title>
-          <Card.Subtitle className="mb-2 text-dark">
+          <Card.Text
+            style={{
+              color: "#fff",
+              backgroundColor: "#fff",
+              padding: "0.25em",
+            }}
+            className="rounded text-dark align-middle"
+          >
             <b>Full Stack Web-Developer | Software Engineer | IT Manager</b>
-          </Card.Subtitle>
-          <Card.Text className="text-dark">
+            <br />
             <b>
               "I design and develop solutions that makes people's lives exciting
               and simple."

@@ -23,7 +23,7 @@ const Header = () => {
         </Nav.Item>
         <Nav.Item className="nav-menu">
           <Nav.Link className="nav-menu-link" href="/experience">
-            Education
+            Experience
           </Nav.Link>
         </Nav.Item>
         <Nav.Item className="nav-menu">
@@ -51,6 +51,14 @@ const Header = () => {
           </Nav.Link>
         </Nav.Item>
       </Nav>
+      <hr
+        style={{
+          color: "#fff",
+          backgroundColor: "#fff",
+          height: 5,
+        }}
+        className="rounded"
+      />
     </Navbar.Collapse>
   )
 }
