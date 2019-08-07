@@ -5,7 +5,7 @@ import Layout from "../components/Layout"
 const Experience = () => {
   return (
     <Layout>
-      <Card>
+      <Card border="primary">
         <Card.Body>
           <Card.Title>IT Administrator / Technical Support.</Card.Title>
           <Card.Subtitle className="mb-2 text-muted">
@@ -14,7 +14,7 @@ const Experience = () => {
           </Card.Subtitle>
           <Card.Text>
             <ListGroup>
-              <ListGroup.Item>
+              <ListGroup.Item border="primary">
                 Spearheaded all Six B2C eCommerce websites of Sector Nine
                 Distribution Limited, resulting in 137.5% accelerated revenue
                 growth in 1 year. Spent time in R&D to find new technologies to
@@ -32,7 +32,7 @@ const Experience = () => {
           </Card.Text>
         </Card.Body>
       </Card>
-      <Card>
+      <Card border="primary">
         <Card.Body>
           <Card.Title>IT Business Development Manager.</Card.Title>
           <Card.Subtitle className="mb-2 text-muted">
@@ -40,7 +40,7 @@ const Experience = () => {
           </Card.Subtitle>
           <Card.Text>
             <ListGroup>
-              <ListGroup.Item>
+              <ListGroup.Item border="primary">
                 Being involved in sales and support, and where appropriate,
                 maintaining contact with client organisations. Identifying
                 potential clients and building and maintaining contacts. Acquire
@@ -78,7 +78,7 @@ const Experience = () => {
           </Card.Text>
         </Card.Body>
       </Card>
-      <Card>
+      <Card border="primary">
         <Card.Body>
           <Card.Title>Business Development Executive Officer.</Card.Title>
           <Card.Subtitle className="mb-2 text-muted">
@@ -87,7 +87,7 @@ const Experience = () => {
           </Card.Subtitle>
           <Card.Text>
             <ListGroup>
-              <ListGroup.Item>
+              <ListGroup.Item border="primary">
                 Meeting with clients to determine requirements. Working with
                 clients to define the scope of a project. Planning timescales
                 and the resources needed. Clarifying a client's system
@@ -125,7 +125,7 @@ const Experience = () => {
           </Card.Text>
         </Card.Body>
       </Card>
-      <Card>
+      <Card border="primary">
         <Card.Body>
           <Card.Title>Business Development Executive/IT Admin.</Card.Title>
           <Card.Subtitle className="mb-2 text-muted">
@@ -154,13 +154,13 @@ const Experience = () => {
           </Card.Text>
         </Card.Body>
       </Card>
-      <Card>
+      <Card border="primary">
         <Card.Body>
           <Card.Title>Internships.</Card.Title>
 
           <Card.Text>
             <ListGroup>
-              <ListGroup.Item>
+              <ListGroup.Item border="primary">
                 <Card.Subtitle>
                   Engineering Internship from Iris Modern Urban Management
                   (IMUM) Abu Dhabi, UAE (July 2013 - August 2013).
@@ -170,7 +170,7 @@ const Experience = () => {
                 Tracking System. Deployed SSRS for Biometric Attendance System
                 and Asset Tracking System reports.
               </ListGroup.Item>
-              <ListGroup.Item>
+              <ListGroup.Item border="primary">
                 <Card.Subtitle>
                   Engineering Internship from Pinnacle Computer Systems Dubai,
                   UAE (July 2012 - August 2012)
