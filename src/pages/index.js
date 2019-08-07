@@ -20,11 +20,8 @@ const Home = () => {
             <h1>Sunny Krishnan Pillai</h1>
           </Card.Title>
           <Card.Text
-            style={{
-              color: "#fff",
-              backgroundColor: "#fff",
-              padding: "0.25em",
-            }}
+            style={{ fontStyle: "italic", backgroundColor: "#FFFFFF75" }}
+            border="primary"
             className="rounded text-dark align-middle"
           >
             <b>Full Stack Web-Developer | Software Engineer | IT Manager</b>

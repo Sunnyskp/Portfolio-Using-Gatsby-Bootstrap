@@ -52,11 +52,8 @@ const Header = () => {
         </Nav.Item>
       </Nav>
       <hr
-        style={{
-          color: "#fff",
-          backgroundColor: "#fff",
-          height: 5,
-        }}
+        style={{ fontStyle: "italic", height: 4, backgroundColor: "#FFFFFF97" }}
+        border="primary"
         className="rounded"
       />
     </Navbar.Collapse>

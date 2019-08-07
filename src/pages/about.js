@@ -5,14 +5,19 @@ import Layout from "../components/Layout"
 const About = () => {
   return (
     <Layout>
-      <Card>
+      <Card
+        style={{ fontStyle: "italic", backgroundColor: "#FFFFFF75" }}
+        border="primary"
+      >
         <Card.Body>
           <Card.Title>
             Full Stack Web-Developer | IT Administrator | E-commerce Business
             Development | Software Engineer
           </Card.Title>
-          <Card.Subtitle className="mb-2 text-muted">
+          <Card.Subtitle className="mb-2">
             Toronto, Canada Area
+            <br />
+            <br />
           </Card.Subtitle>
           <Card.Text>
             <h5>Skills</h5>

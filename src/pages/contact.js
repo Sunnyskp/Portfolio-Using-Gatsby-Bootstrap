@@ -28,7 +28,7 @@ const Contact = () => {
         </Card.Header>
         <Card.Body>
           <CardDeck>
-            <Card bg="light" className="text-light">
+            <Card style={{ backgroundColor: "#FFFFFF75" }} border="primary">
               <Card.Body>
                 <Container>
                   <Row>
@@ -61,7 +61,7 @@ const Contact = () => {
                 </Card.Text>
               </Card.Body>
             </Card>
-            <Card bg="light" className="text-light">
+            <Card style={{ backgroundColor: "#FFFFFF75" }} border="primary">
               <Card.Body>
                 <Container>
                   <Row>
@@ -94,7 +94,7 @@ const Contact = () => {
                 </Card.Text>
               </Card.Body>
             </Card>
-            <Card bg="light" className="text-light">
+            <Card style={{ backgroundColor: "#FFFFFF75" }} border="primary">
               <Card.Body>
                 <Container>
                   <Row>
