@@ -7,6 +7,10 @@ import ArgCanada from "../images/arg.ca.png"
 import OptiCanada from "../images/opti.ca.png"
 import OptiUSA from "../images/opti.com.png"
 import ABCMovies from "../images/ABCMovielogo.png"
+import WOW from "../images/wow-logo.png"
+import RDF from "../images/Newfb-logo.png"
+import PL from "../images/s-logo-card.png"
+import LEA from "../images/LEA.png"
 import Layout from "../components/Layout"
 
 import "bootstrap/dist/css/bootstrap.css"
@@ -34,7 +38,7 @@ const Portfolio = () => {
               <img
                 rounded
                 className="card-img rounded-top"
-                src={ABCMovies}
+                src={WOW}
                 alt="Card img cap"
               />
               <div className="card-body">
@@ -71,7 +75,7 @@ const Portfolio = () => {
               <img
                 rounded
                 className="card-img rounded-top"
-                src={ABCMovies}
+                src={PL}
                 alt="Card img cap"
               />
               <div className="card-body">
@@ -95,7 +99,7 @@ const Portfolio = () => {
               <img
                 rounded
                 className="card-img rounded-top"
-                src={ABCMovies}
+                src={RDF}
                 alt="Card img cap"
               />
               <div className="card-body">
@@ -114,14 +118,21 @@ const Portfolio = () => {
               <img
                 rounded
                 className="card-img rounded-top"
-                src={ABCMovies}
+                src={LEA}
                 alt="Card img cap"
               />
               <div className="card-body">
-                <h5 className="card-title">Card title</h5>
+                <h5 className="card-title">Label Expert Academy(LEA)</h5>
                 <p className="card-text text-justify">
-                  This card has supporting text below as a natural lead-in to
-                  additional content.
+                  LEA aim to provide all the necessary information and material
+                  descriptions for label print media solutions of various sizes,
+                  shapes and material types. These solutions will include blank
+                  label rolls, tractor feed labels, sheet labels, tag labels
+                  etc.The material types will include chemical, gloss,
+                  polypropylene, polyester etc. These label solutions will be
+                  compatible with various label printers produced by leading
+                  brands such as Epson, Afinia, Primera, Neura Label, VIP Color
+                  etc..
                 </p>
               </div>
               <div className="card-footer">

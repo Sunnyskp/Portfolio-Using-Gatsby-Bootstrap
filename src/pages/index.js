@@ -20,7 +20,11 @@ const Home = () => {
             <h1>Sunny Krishnan Pillai</h1>
           </Card.Title>
           <Card.Text
-            style={{ fontStyle: "italic", backgroundColor: "#FFFFFF75" }}
+            style={{
+              fontStyle: "italic",
+              textShadow: "0.1px 0.1px #000000",
+              backgroundColor: "#FFFFFF70",
+            }}
             border="primary"
             className="rounded text-dark align-middle"
           >
@@ -31,13 +35,13 @@ const Home = () => {
               and simple."
             </b>
           </Card.Text>
-          <button type="button" className="btn btn-info">
+          <button type="button" className="btn btn-dark">
             <a
               className="text-white text-center"
               target="_blank"
               href="https://www.linkedin.com/in/sunnyskp"
             >
-              View Resume
+              <b>VIEW RESUME</b>
             </a>
           </button>
         </Card.Body>
