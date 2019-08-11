@@ -17,12 +17,19 @@ const Home = () => {
           <br />
           <br />
           <Card.Title>
-            <h1>Sunny Krishnan Pillai</h1>
+            <h1
+              style={{
+                textShadow:
+                  "1px 1px 2px rgb(0, 0, 0), 0 0 1em rgb(0, 22, 218), 0 0 0.2em rgb(0, 0, 110)",
+              }}
+            >
+              Sunny Krishnan Pillai
+            </h1>
           </Card.Title>
           <Card.Text
             style={{
               fontStyle: "italic",
-              textShadow: "0.1px 0.1px #000000",
+              textShadow: "0.2px 0.2px #000000",
               backgroundColor: "#FFFFFF70",
             }}
             border="primary"
