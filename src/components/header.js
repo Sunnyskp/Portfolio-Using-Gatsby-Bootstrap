@@ -22,7 +22,7 @@ const Header = () => {
           </Nav.Link>
         </Nav.Item>
         <Nav.Item className="nav-menu">
-          <Nav.Link className="nav-menu-link" href="/experience">
+          <Nav.Link className="nav-menu-link" href="/services">
             Services
           </Nav.Link>
         </Nav.Item>

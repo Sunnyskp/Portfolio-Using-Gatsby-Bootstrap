@@ -1,0 +1,260 @@
+import React from "React"
+import ABCMovies from "../images/ABCMovielogo.png"
+import WOW from "../images/wow-logo.png"
+import PL from "../images/s-logo-card.png"
+import Layout from "../components/Layout"
+import "bootstrap/dist/css/bootstrap.css"
+
+const Services = () => {
+  return (
+    <Layout>
+      <div className="container">
+        <div className="row">
+          <div className="card-deck">
+            <div className="card">
+              <img
+                rounded
+                className="card-img rounded-top"
+                src={WOW}
+                alt="Card img cap"
+              />
+              <div className="card-body">
+                <h5 className="card-title">Web Design</h5>
+                <p className="card-text text-justify">
+                  A website should be designed for the people who will use it,
+                  so that's exactly what I do. User focused design should be the
+                  primary goal of any website.
+                </p>
+              </div>
+              <div className="card-footer">
+                <small className="text-muted">Last updated 3 mins ago</small>
+              </div>
+            </div>
+            <div className="card">
+              <img
+                rounded
+                className="card-img rounded-top"
+                src={ABCMovies}
+                alt="Card img cap"
+              />
+              <div className="card-body">
+                <h5 className="card-title">Web Development</h5>
+                <p className="card-text text-justify">
+                  Every website should be built with two primary goals: Firstly,
+                  it needs to work across all devices. Secondly, it needs to be
+                  fast as possible.
+                </p>
+              </div>
+              <div className="card-footer">
+                <small className="text-muted">Last updated 3 mins ago</small>
+              </div>
+            </div>
+            <div className="card">
+              <img
+                rounded
+                className="card-img rounded-top"
+                src={PL}
+                alt="Card img cap"
+              />
+              <div className="card-body">
+                <h5 className="card-title">eCommerce</h5>
+                <p className="card-text text-justify">
+                  Creating a good online store can be hard. Over the years I've
+                  learned the best ways to design stores that sell products and
+                  provide real value to customers.
+                </p>
+              </div>
+              <div className="card-footer">
+                <small className="text-muted">Last updated 3 mins ago</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="row">
+          <div className="card-deck">
+            <div className="card">
+              <img
+                rounded
+                className="card-img rounded-top"
+                src={WOW}
+                alt="Card img cap"
+              />
+              <div className="card-body">
+                <h5 className="card-title">Application UI</h5>
+                <p className="card-text text-justify">
+                  The user interface of an application, whether it's mobile or
+                  desktop, can make or break a business. Getting the interface
+                  right and most importantly of all, making it easy to navigate,
+                  are the keys to a successful app.
+                </p>
+              </div>
+              <div className="card-footer">
+                <small className="text-muted">Last updated 3 mins ago</small>
+              </div>
+            </div>
+            <div className="card">
+              <img
+                rounded
+                className="card-img rounded-top"
+                src={ABCMovies}
+                alt="Card img cap"
+              />
+              <div className="card-body">
+                <h5 className="card-title">SEO (Search Engine Optimisation)</h5>
+                <p className="card-text text-justify">
+                  SEO is the practice of improving and promoting a website in
+                  order to increase the number of visitors it receives.
+                </p>
+              </div>
+              <div className="card-footer">
+                <small className="text-muted">Last updated 3 mins ago</small>
+              </div>
+            </div>
+            <div className="card">
+              <img
+                rounded
+                className="card-img rounded-top"
+                src={PL}
+                alt="Card img cap"
+              />
+              <div className="card-body">
+                <h5 className="card-title">eCommerce</h5>
+                <p className="card-text text-justify">
+                  Creating a good online store can be hard. Over the years I've
+                  learned the best ways to design stores that sell products and
+                  provide real value to customers.
+                </p>
+              </div>
+              <div className="card-footer">
+                <small className="text-muted">Last updated 3 mins ago</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="row">
+          <div className="card-deck">
+            <div className="card">
+              <img
+                rounded
+                className="card-img rounded-top"
+                src={WOW}
+                alt="Card img cap"
+              />
+              <div className="card-body">
+                <h5 className="card-title">Web Design</h5>
+                <p className="card-text text-justify">
+                  A website should be designed for the people who will use it,
+                  so that's exactly what I do. User focused design should be the
+                  primary goal of any website.
+                </p>
+              </div>
+              <div className="card-footer">
+                <small className="text-muted">Last updated 3 mins ago</small>
+              </div>
+            </div>
+            <div className="card">
+              <img
+                rounded
+                className="card-img rounded-top"
+                src={ABCMovies}
+                alt="Card img cap"
+              />
+              <div className="card-body">
+                <h5 className="card-title">Web Development</h5>
+                <p className="card-text text-justify">
+                  Every website should be built with two primary goals: Firstly,
+                  it needs to work across all devices. Secondly, it needs to be
+                  fast as possible.
+                </p>
+              </div>
+              <div className="card-footer">
+                <small className="text-muted">Last updated 3 mins ago</small>
+              </div>
+            </div>
+            <div className="card">
+              <img
+                rounded
+                className="card-img rounded-top"
+                src={PL}
+                alt="Card img cap"
+              />
+              <div className="card-body">
+                <h5 className="card-title">eCommerce</h5>
+                <p className="card-text text-justify">
+                  Creating a good online store can be hard. Over the years I've
+                  learned the best ways to design stores that sell products and
+                  provide real value to customers.
+                </p>
+              </div>
+              <div className="card-footer">
+                <small className="text-muted">Last updated 3 mins ago</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="row">
+          <div className="card-deck">
+            <div className="card">
+              <img
+                rounded
+                className="card-img rounded-top"
+                src={WOW}
+                alt="Card img cap"
+              />
+              <div className="card-body">
+                <h5 className="card-title">Web Design</h5>
+                <p className="card-text text-justify">
+                  A website should be designed for the people who will use it,
+                  so that's exactly what I do. User focused design should be the
+                  primary goal of any website.
+                </p>
+              </div>
+              <div className="card-footer">
+                <small className="text-muted">Last updated 3 mins ago</small>
+              </div>
+            </div>
+            <div className="card">
+              <img
+                rounded
+                className="card-img rounded-top"
+                src={ABCMovies}
+                alt="Card img cap"
+              />
+              <div className="card-body">
+                <h5 className="card-title">Web Development</h5>
+                <p className="card-text text-justify">
+                  Every website should be built with two primary goals: Firstly,
+                  it needs to work across all devices. Secondly, it needs to be
+                  fast as possible.
+                </p>
+              </div>
+              <div className="card-footer">
+                <small className="text-muted">Last updated 3 mins ago</small>
+              </div>
+            </div>
+            <div className="card">
+              <img
+                rounded
+                className="card-img rounded-top"
+                src={PL}
+                alt="Card img cap"
+              />
+              <div className="card-body">
+                <h5 className="card-title">eCommerce</h5>
+                <p className="card-text text-justify">
+                  Creating a good online store can be hard. Over the years I've
+                  learned the best ways to design stores that sell products and
+                  provide real value to customers.
+                </p>
+              </div>
+              <div className="card-footer">
+                <small className="text-muted">Last updated 3 mins ago</small>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </Layout>
+  )
+}
+export default Services
