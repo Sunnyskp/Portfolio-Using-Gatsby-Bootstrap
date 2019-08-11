@@ -42,15 +42,22 @@ const Portfolio = () => {
                 alt="Card img cap"
               />
               <div className="card-body">
-                <h5 className="card-title">Card title</h5>
+                <h5 className="card-title">World of Wonders(WOW)</h5>
                 <p className="card-text text-justify">
-                  This is a wider card with supporting text below as a natural
-                  lead-in to additional content. This content is a little bit
-                  longer.
+                  WOW is a travel website that allows people to book rooms
+                  around the world. It is developed using languages and
+                  frameworks like NodeJS, Express, MongoDB,
+                  Express-HandleBars...etc.
                 </p>
               </div>
               <div className="card-footer">
-                <small className="text-muted">Last updated 3 mins ago</small>
+                <a
+                  href="https://www.wow.sunnyskp.ca"
+                  className="stretched-link"
+                  target="_blank"
+                >
+                  <em>Go to World of Wonders (WOW)</em>
+                </a>
               </div>
             </div>
             <div className="card">
@@ -61,14 +68,22 @@ const Portfolio = () => {
                 alt="Card img cap"
               />
               <div className="card-body">
-                <h5 className="card-title">Card title</h5>
+                <h5 className="card-title">ABCMovies</h5>
                 <p className="card-text text-justify">
-                  This card has supporting text below as a natural lead-in to
-                  additional content.
+                  ABC Movies is a simple REST API movie website that provides
+                  capsule information about 100s of movies across north America.
+                  All movies data and information are fetched from the free
+                  TheMovieDB’s Now Playing API.
                 </p>
               </div>
               <div className="card-footer">
-                <small className="text-muted">Last updated 3 mins ago</small>
+                <a
+                  href="https://www.abcmovies.sunnyskp.ca"
+                  className="stretched-link"
+                  target="_blank"
+                >
+                  <em>Go to ABCMovies</em>
+                </a>
               </div>
             </div>
             <div className="card">
@@ -79,15 +94,21 @@ const Portfolio = () => {
                 alt="Card img cap"
               />
               <div className="card-body">
-                <h5 className="card-title">Card title</h5>
+                <h5 className="card-title">My Portfolio</h5>
                 <p className="card-text text-justify">
-                  This is a wider card with supporting text below as a natural
-                  lead-in to additional content. This card has even longer
-                  content than the first to show that equal height action.
+                  This is my portfolio website and this website is developed
+                  using frameworks such as React, GatsbyJS, Bootstrap,
+                  React-Bootstrap ...etc.
                 </p>
               </div>
               <div className="card-footer">
-                <small className="text-muted">Last updated 3 mins ago</small>
+                <a
+                  href="https://www.sunnyskp.ca"
+                  className="stretched-link"
+                  target="_blank"
+                >
+                  <em>Go to My Portfolio</em>
+                </a>
               </div>
             </div>
           </div>
@@ -103,15 +124,20 @@ const Portfolio = () => {
                 alt="Card img cap"
               />
               <div className="card-body">
-                <h5 className="card-title">Card title</h5>
+                <h5 className="card-title">Redesigned - Facebook</h5>
                 <p className="card-text text-justify">
-                  This is a wider card with supporting text below as a natural
-                  lead-in to additional content. This content is a little bit
-                  longer.
+                  This was my humble attempt to redesign facebook layout to make
+                  use of the visible window of a screen completely.
                 </p>
               </div>
               <div className="card-footer">
-                <small className="text-muted">Last updated 3 mins ago</small>
+                <a
+                  href="https://www.redesignfacebook.sunnyskp.ca"
+                  className="stretched-link"
+                  target="_blank"
+                >
+                  <em>Go to Redesigned-Facebook</em>
+                </a>
               </div>
             </div>
             <div className="card">
@@ -126,36 +152,18 @@ const Portfolio = () => {
                 <p className="card-text text-justify">
                   LEA aim to provide all the necessary information and material
                   descriptions for label print media solutions of various sizes,
-                  shapes and material types. These solutions will include blank
-                  label rolls, tractor feed labels, sheet labels, tag labels
-                  etc.The material types will include chemical, gloss,
-                  polypropylene, polyester etc. These label solutions will be
-                  compatible with various label printers produced by leading
-                  brands such as Epson, Afinia, Primera, Neura Label, VIP Color
-                  etc..
+                  shapes and material types. Its developed using only HTML and
+                  CSS styling.
                 </p>
               </div>
               <div className="card-footer">
-                <small className="text-muted">Last updated 3 mins ago</small>
-              </div>
-            </div>
-            <div className="card">
-              <img
-                rounded
-                className="card-img rounded-top"
-                src={ABCMovies}
-                alt="Card img cap"
-              />
-              <div className="card-body">
-                <h5 className="card-title">Card title</h5>
-                <p className="card-text text-justify">
-                  This is a wider card with supporting text below as a natural
-                  lead-in to additional content. This card has even longer
-                  content than the first to show that equal height action.
-                </p>
-              </div>
-              <div className="card-footer">
-                <small className="text-muted">Last updated 3 mins ago</small>
+                <a
+                  href="https://www.labelexpertacademy.sunnyskp.ca"
+                  className="stretched-link"
+                  target="_blank"
+                >
+                  <em>Go to Label Expert Academy (LEA)</em>
+                </a>
               </div>
             </div>
           </div>
