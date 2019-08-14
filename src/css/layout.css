@@ -1,9 +1,8 @@
 body {
-  align-content: left;
+  text-align: right;
   margin-left: auto;
   margin-right: auto;
   font-size: 2em;
   background-image: url("../images/portfolio-bg.png");
-  background-position: center;
   background-size: cover;
 }

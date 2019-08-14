@@ -5,12 +5,17 @@ import "../css/header-style.css"
 
 const Header = () => {
   return (
-    <Navbar.Collapse>
+    <Navbar.Brand className="d-block">
       <Nav
         id="responsive-navbar-nav"
         className="justify-content-between"
         activeKey="/home"
       >
+        <Nav.Item className="nav-menu logo-style-nav-mobile">
+          <Nav.Link className="nav-menu-link" href="/">
+            <img src={Logo} className="logo-style" alt="" />
+          </Nav.Link>
+        </Nav.Item>
         <Nav.Item
           border="primary"
           className="nav-menu btn btn-sm btn-outline-light btn-dark"
@@ -35,7 +40,7 @@ const Header = () => {
             Services
           </Nav.Link>
         </Nav.Item>
-        <Nav.Item className="nav-menu ">
+        <Nav.Item className="nav-menu logo-style-nav-desktop">
           <Nav.Link className="nav-menu-link" href="/">
             <img src={Logo} className="logo-style" alt="" />
           </Nav.Link>
@@ -74,7 +79,7 @@ const Header = () => {
         border="primary"
         className="rounded"
       />
-    </Navbar.Collapse>
+    </Navbar.Brand>
   )
 }
 export default Header

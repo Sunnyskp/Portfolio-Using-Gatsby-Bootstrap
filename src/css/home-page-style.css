@@ -25,14 +25,23 @@ h1 {
   background: none;
   border: none;
 }
-@media screen and (max-width: 990px) {
+@media screen and (max-width: 999px) {
   .card-style {
     display: block;
     background: none;
     border: none;
   }
   .head-shot {
-    width: 13em;
+    width: 12.5em;
     margin: auto;
+  }
+
+  .herotext-style {
+    font-size: 1em;
+  }
+
+  div.card-body {
+    margin: 0;
+    text-align: center;
   }
 }

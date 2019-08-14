@@ -10,7 +10,7 @@ import "../css/home-page-style.css"
 const Home = () => {
   return (
     <Layout>
-      <Card className="text-white text-right card-style">
+      <Card className=" mx-auto text-white text-right card-style head-shot-style">
         <Card.Body>
           <Image src={Sunny} className="head-shot" rounded />
           <br />
@@ -25,7 +25,7 @@ const Home = () => {
               textShadow: "0.1em 0.1em 0.1em #000",
             }}
             border="primary"
-            className="rounded text-light align-middle"
+            className=" rounded text-light align-middle"
           >
             <b>Full Stack Web-Developer | Software Engineer | IT Manager</b>
             <br />
