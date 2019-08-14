@@ -5,7 +5,8 @@ html {
 
 h1 {
   color: rgb(255, 255, 255);
-  font-size: 5em;
+  font-size: 3em;
+  text-shadow: 0.1em 0.1em 0.1em #000;
 }
 
 .hero-text {
@@ -18,7 +19,7 @@ h1 {
 }
 
 .head-shot {
-  width: 17em;
+  width: 15.5em;
 }
 
 .card-style {

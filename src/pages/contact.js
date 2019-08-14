@@ -8,27 +8,22 @@ import Layout from "../components/Layout"
 const Contact = () => {
   return (
     <Layout>
+      <br />
       <Card
         border="primary"
         style={{
-          background: "none",
+          backgroundColor: "#f2f2f2",
         }}
-        className="text-center text-white"
+        className="text-center text-dark"
       >
-        <Card.Header
-          style={{
-            textShadow:
-              "1px 1px 2px rgb(0, 0, 0), 0 0 1em rgb(0, 22, 218), 0 0 0.2em rgb(0, 0, 110)",
-          }}
-          className="text-center text-light"
-        >
+        <Card.Header className="text-center text-dark">
           <h4>
             <b> Have a question or want to work together?</b>
           </h4>
         </Card.Header>
         <Card.Body>
           <CardDeck>
-            <Card style={{ backgroundColor: "#FFFFFF75" }} border="primary">
+            <Card className="text-dark" border="primary">
               <Card.Body>
                 <Container>
                   <Row>
@@ -41,7 +36,7 @@ const Contact = () => {
                         <Image
                           src={LinkedIn}
                           style={{
-                            width: "12em",
+                            width: "13em",
                             padding: "0.25em",
                           }}
                           rounded
@@ -52,7 +47,7 @@ const Contact = () => {
                 </Container>
                 <Card.Text className="text-light">
                   <a
-                    className="nav-menu"
+                    className="nav-menu text-dark"
                     target="_blank"
                     href="https://www.linkedin.com/in/sunnyskp"
                   >
@@ -61,7 +56,7 @@ const Contact = () => {
                 </Card.Text>
               </Card.Body>
             </Card>
-            <Card style={{ backgroundColor: "#FFFFFF75" }} border="primary">
+            <Card border="primary">
               <Card.Body>
                 <Container>
                   <Row>
@@ -73,7 +68,7 @@ const Contact = () => {
                       >
                         <Image
                           style={{
-                            width: "12em",
+                            width: "13em",
                             padding: "0.25em",
                           }}
                           src={GitHub}
@@ -85,7 +80,7 @@ const Contact = () => {
                 </Container>
                 <Card.Text className="text-light">
                   <a
-                    className="nav-menu"
+                    className="nav-menu text-dark"
                     href="https://github.com/Sunnyskp"
                     target="_blank"
                   >
@@ -94,7 +89,7 @@ const Contact = () => {
                 </Card.Text>
               </Card.Body>
             </Card>
-            <Card style={{ backgroundColor: "#FFFFFF75" }} border="primary">
+            <Card className="text-dark" border="primary">
               <Card.Body>
                 <Container>
                   <Row>
@@ -106,7 +101,7 @@ const Contact = () => {
                       >
                         <Image
                           style={{
-                            width: "12em",
+                            width: "13em",
                             padding: "0.25em",
                           }}
                           src={Facebook}
@@ -118,7 +113,7 @@ const Contact = () => {
                 </Container>
                 <Card.Text className="text-light">
                   <a
-                    className="nav-menu"
+                    className="nav-menu text-dark"
                     href="https://www.facebook.com/skp.sunny"
                     target="_blank"
                   >
@@ -130,13 +125,7 @@ const Contact = () => {
           </CardDeck>
         </Card.Body>
         <Card.Footer>
-          <Card.Text
-            style={{
-              textShadow:
-                "1px 1px 2px rgb(0, 0, 0), 0 0 1em rgb(0, 22, 218), 0 0 0.2em rgb(0, 0, 110)",
-            }}
-            className="text-light"
-          >
+          <Card.Text className="text-dark">
             <h5>
               If you wanna get in touch, talk to me about a project
               collaboration or just say hi, send an email to{" "}

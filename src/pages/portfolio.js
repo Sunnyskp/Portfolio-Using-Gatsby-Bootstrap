@@ -20,14 +20,16 @@ const Portfolio = () => {
   return (
     <Layout>
       <Card
-        style={{ fontStyle: "italic", backgroundColor: "#FFFFFF75" }}
-        border="primary"
-        className="rounded text-dark text-center"
+        style={{
+          textShadow: "0.02em 0.02em 0.1em #000",
+          backgroundColor: "#F2F2F2",
+        }}
+        className="rounded text-light text-left"
       >
         <Card.Body>
-          <h1 className="text-dark">
+          <h4 className="text-dark">
             <b>Projects Developed By Me</b>
-          </h1>
+          </h4>
         </Card.Body>
       </Card>
 
@@ -35,12 +37,7 @@ const Portfolio = () => {
         <div className="row">
           <div className="card-deck">
             <div className="card">
-              <img
-                rounded
-                className="card-img rounded-top"
-                src={WOW}
-                alt="Card img cap"
-              />
+              <img rounded className="card-img" src={WOW} alt="Card img cap" />
               <div className="card-body">
                 <h5 className="card-title">World of Wonders(WOW)</h5>
                 <p className="card-text text-justify">
@@ -172,14 +169,16 @@ const Portfolio = () => {
 
       <div>
         <Card
-          style={{ fontStyle: "italic", backgroundColor: "#FFFFFF75" }}
-          border="primary"
-          className="rounded text-dark text-center"
+          style={{
+            textShadow: "0.02em 0.02em 0.1em #000",
+            backgroundColor: "#F2F2F2",
+          }}
+          className="rounded text-light text-left"
         >
           <Card.Body>
-            <h1 className="text-dark">
+            <h4 className="text-dark">
               <b>Projects Managed By Me</b>
-            </h1>
+            </h4>
           </Card.Body>
         </Card>
 

@@ -1,7 +1,9 @@
 body {
-  align-content: center;
+  align-content: left;
   margin-left: auto;
   margin-right: auto;
   font-size: 2em;
-  background-color: rgb(59, 59, 59);
+  background-image: url("../images/portfolio-bg.png");
+  background-position: center;
+  background-size: cover;
 }

@@ -6,7 +6,7 @@ const About = () => {
   return (
     <Layout>
       <Card
-        style={{ fontStyle: "italic", backgroundColor: "#FFFFFF75" }}
+        style={{ fontStyle: "italic", backgroundColor: "#F2F2F2" }}
         border="primary"
         className="rounded text-dark text-left"
       >
@@ -20,7 +20,7 @@ const About = () => {
       </Card>
 
       <Card
-        style={{ fontStyle: "italic", backgroundColor: "#FFFFFF75" }}
+        style={{ fontStyle: "italic", backgroundColor: "#F2F2F2" }}
         border="primary"
       >
         <Card.Body>
@@ -49,7 +49,7 @@ const About = () => {
         </Card.Body>
       </Card>
       <Card
-        style={{ fontStyle: "italic", backgroundColor: "#FFFFFF75" }}
+        style={{ fontStyle: "italic", backgroundColor: "#F2F2F2" }}
         border="primary"
       >
         <Card.Body>
@@ -79,18 +79,18 @@ const About = () => {
         </Card.Body>
       </Card>
       <Card
-        style={{ fontStyle: "italic", backgroundColor: "#FFFFFF75" }}
+        style={{ fontStyle: "italic", backgroundColor: "#F2F2F2" }}
         border="primary"
         className="rounded text-dark text-left"
       >
         <Card.Body>
-          <h1 className="text-dark">
+          <h4 className="text-dark">
             <b>Experiences</b>
-          </h1>
+          </h4>
         </Card.Body>
       </Card>
       <Card
-        style={{ fontStyle: "italic", backgroundColor: "#FFFFFF75" }}
+        style={{ fontStyle: "italic", backgroundColor: "#F2F2F2" }}
         border="primary"
       >
         <Card.Body>
@@ -121,7 +121,7 @@ const About = () => {
         </Card.Body>
       </Card>
       <Card
-        style={{ fontStyle: "italic", backgroundColor: "#FFFFFF75" }}
+        style={{ fontStyle: "italic", backgroundColor: "#F2F2F2" }}
         border="primary"
       >
         <Card.Body>
@@ -172,7 +172,7 @@ const About = () => {
         </Card.Body>
       </Card>
       <Card
-        style={{ fontStyle: "italic", backgroundColor: "#FFFFFF75" }}
+        style={{ fontStyle: "italic", backgroundColor: "#F2F2F2" }}
         border="primary"
       >
         <Card.Body>
@@ -225,7 +225,7 @@ const About = () => {
         </Card.Body>
       </Card>
       <Card
-        style={{ fontStyle: "italic", backgroundColor: "#FFFFFF75" }}
+        style={{ fontStyle: "italic", backgroundColor: "#F2F2F2" }}
         border="primary"
       >
         <Card.Body>
@@ -258,7 +258,7 @@ const About = () => {
         </Card.Body>
       </Card>
       <Card
-        style={{ fontStyle: "italic", backgroundColor: "#FFFFFF75" }}
+        style={{ fontStyle: "italic", backgroundColor: "#F2F2F2" }}
         border="primary"
       >
         <Card.Body>

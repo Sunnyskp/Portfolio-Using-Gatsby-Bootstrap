@@ -1,6 +1,5 @@
 import React from "react"
 import Sunny from "../images/Sunny-Krishnan-Pillai.jpg"
-// import BG from "../images/problem-solved.png"
 import Layout from "../components/Layout"
 import Card from "react-bootstrap/Card"
 import Image from "react-bootstrap/Image"
@@ -11,29 +10,22 @@ import "../css/home-page-style.css"
 const Home = () => {
   return (
     <Layout>
-      <Card className="text-white text-center card-style">
+      <Card className="text-white text-right card-style">
         <Card.Body>
           <Image src={Sunny} className="head-shot" rounded />
           <br />
           <br />
           <Card.Title>
-            <h1
-              style={{
-                textShadow:
-                  "1px 1px 2px rgb(0, 0, 0), 0 0 1em rgb(0, 22, 218), 0 0 0.2em rgb(0, 0, 110)",
-              }}
-            >
-              Sunny Krishnan Pillai
-            </h1>
+            <h1 className="text-light"> Sunny Krishnan Pillai </h1>
           </Card.Title>
           <Card.Text
             style={{
-              fontStyle: "italic",
-              textShadow: "0.2px 0.2px #000000",
-              backgroundColor: "#FFFFFF70",
+              paddingBottom: "0.5em",
+              fontSize: "1.15em",
+              textShadow: "0.1em 0.1em 0.1em #000",
             }}
             border="primary"
-            className="rounded text-dark align-middle"
+            className="rounded text-light align-middle"
           >
             <b>Full Stack Web-Developer | Software Engineer | IT Manager</b>
             <br />
