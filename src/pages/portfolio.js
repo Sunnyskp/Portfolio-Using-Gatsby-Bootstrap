@@ -49,7 +49,7 @@ const Portfolio = () => {
               </div>
               <div className="card-footer">
                 <a
-                  href="https://www.wow.sunnyskp.ca"
+                  href="https://github.com/Sunnyskp/WOW-World-Of-Wonders-Room-stay-website.git"
                   className="stretched-link"
                   target="_blank"
                 >
