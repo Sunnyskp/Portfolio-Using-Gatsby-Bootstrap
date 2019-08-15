@@ -6,11 +6,13 @@ import "../css/layout.css"
 
 const Layout = ({ children }) => {
   return (
-    <Container>
-      <Header />
-      <main>{children}</main>
-      <Footer />
-    </Container>
+    <div className="layout-style">
+      <Container>
+        <Header />
+        <main>{children}</main>
+        <Footer />
+      </Container>
+    </div>
   )
 }
 export default Layout

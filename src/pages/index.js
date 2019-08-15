@@ -10,7 +10,7 @@ import "../css/home-page-style.css"
 const Home = () => {
   return (
     <Layout>
-      <Card className=" mx-auto text-white text-right card-style head-shot-style">
+      <Card className=" mx-auto text-white text-center card-style head-shot-style">
         <Card.Body>
           <Image src={Sunny} className="head-shot" rounded />
           <br />
