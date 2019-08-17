@@ -37,27 +37,6 @@ const Portfolio = () => {
         <div className="row">
           <div className="card-deck">
             <div className="card">
-              <img rounded className="card-img" src={WOW} alt="Card img cap" />
-              <div className="card-body">
-                <h5 className="card-title">World of Wonders(WOW)</h5>
-                <p className="card-text text-justify">
-                  WOW is a travel website that allows people to book rooms
-                  around the world. It is developed using languages and
-                  frameworks like NodeJS, Express, MongoDB,
-                  Express-HandleBars...etc.
-                </p>
-              </div>
-              <div className="card-footer">
-                <a
-                  href="https://github.com/Sunnyskp/WOW-World-Of-Wonders-Room-stay-website.git"
-                  className="stretched-link"
-                  target="_blank"
-                >
-                  <em>Go to World of Wonders (WOW)</em>
-                </a>
-              </div>
-            </div>
-            <div className="card">
               <img
                 rounded
                 className="card-img rounded-top"
@@ -162,6 +141,26 @@ const Portfolio = () => {
                   <em>Go to Label Expert Academy (LEA)</em>
                 </a>
               </div>
+            </div>
+          </div>
+          <div className="card">
+            <img rounded className="card-img" src={WOW} alt="Card img cap" />
+            <div className="card-body">
+              <h5 className="card-title">World of Wonders(WOW)</h5>
+              <p className="card-text text-justify">
+                WOW is a travel website that allows people to book rooms around
+                the world. It is developed using languages and frameworks like
+                NodeJS, Express, MongoDB, Express-HandleBars...etc.
+              </p>
+            </div>
+            <div className="card-footer">
+              <a
+                href="https://github.com/Sunnyskp/WOW-World-Of-Wonders-Room-stay-website.git"
+                className="stretched-link"
+                target="_blank"
+              >
+                <em>Go to World of Wonders (WOW)</em>
+              </a>
             </div>
           </div>
         </div>

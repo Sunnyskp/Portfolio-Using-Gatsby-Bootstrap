@@ -7,7 +7,7 @@ import "../css/layout.css"
 const Layout = ({ children }) => {
   return (
     <div className="layout-style">
-      <Container>
+      <Container style={{ paddingTop: "1em", height: "100%" }}>
         <Header />
         <main>{children}</main>
         <Footer />

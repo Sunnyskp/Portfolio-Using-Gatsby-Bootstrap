@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <Navbar sticky="bottom" variant="dark">
       <Navbar.Collapse>
-        <Navbar.Text className="text-light text-right">
+        <Navbar.Text style={{ fontWeight: "bolder" }} className="text-muted">
           <em>&copy; 2019 Sunny Krishnan Pillai</em>
         </Navbar.Text>
       </Navbar.Collapse>
