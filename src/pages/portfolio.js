@@ -148,9 +148,10 @@ const Portfolio = () => {
             <div className="card-body">
               <h5 className="card-title">World of Wonders(WOW)</h5>
               <p className="card-text text-justify">
-                WOW is a travel website that allows people to book rooms around
-                the world. It is developed using languages and frameworks like
-                NodeJS, Express, MongoDB, Express-HandleBars...etc.
+                Ones completed, WOW will be a travel website that allows people
+                to book rooms around the world. It is developed using languages
+                and frameworks like NodeJS, Express, MongoDB,
+                Express-HandleBars...etc.
               </p>
             </div>
             <div className="card-footer">
@@ -159,7 +160,7 @@ const Portfolio = () => {
                 className="stretched-link"
                 target="_blank"
               >
-                <em>Go to World of Wonders (WOW)</em>
+                <em>Go to World of Wonders (WOW) - GitHub</em>
               </a>
             </div>
           </div>
