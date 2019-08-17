@@ -148,7 +148,7 @@ const Portfolio = () => {
             <div className="card-body">
               <h5 className="card-title">World of Wonders(WOW)</h5>
               <p className="card-text text-justify">
-                Ones completed, WOW will be a travel website that allows people
+                Once completed, WOW will be a travel website that allows people
                 to book rooms around the world. It is developed using languages
                 and frameworks like NodeJS, Express, MongoDB,
                 Express-HandleBars...etc.
