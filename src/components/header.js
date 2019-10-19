@@ -5,7 +5,7 @@ import "../css/header-style.css"
 
 const Header = () => {
   return (
-    <Navbar.Brand className="d-block">
+    <Navbar.Brand className="d-block headerstyle">
       <Nav
         id="responsive-navbar-nav"
         className="justify-content-between"

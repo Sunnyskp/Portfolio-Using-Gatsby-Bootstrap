@@ -3,10 +3,10 @@ body {
   height: 100%;
   margin-left: auto;
   margin-right: auto;
-  background: #000000;
-  background-size: cover;
+  background: #fcfcfc;
+  /* background-size: cover;
   background: -webkit-linear-gradient(#353838, #383a3b);
   background: -moz-linear-gradient(#32695d, #376b94);
-  background: linear-gradient(#243834, #1a5685);
+  background: linear-gradient(#243834, #1a5685); */
   overflow: auto;
 }

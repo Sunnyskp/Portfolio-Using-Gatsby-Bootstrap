@@ -3,9 +3,18 @@ html {
   width: 100%;
 }
 
+.headerstyle {
+  background-color: black;
+  background-size: cover;
+  background: -webkit-linear-gradient(#353838, #383a3b);
+  background: -moz-linear-gradient(#32695d, #376b94);
+  background: linear-gradient(#243834, #1a5685);
+}
+
 span.d-block.navbar-brand {
   margin: 0;
-  padding: 0;
+  padding-left: 4em;
+  padding-right: 4em;
 }
 
 .logo-style {

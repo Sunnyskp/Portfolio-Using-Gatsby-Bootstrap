@@ -7,12 +7,12 @@ import "../css/layout.css"
 const Layout = ({ children }) => {
   return (
     <div className="layout-style">
+      <Header />
       <Container
         style={{
           paddingTop: "1em",
         }}
       >
-        <Header />
         <main>{children}</main>
         <Footer />
       </Container>
