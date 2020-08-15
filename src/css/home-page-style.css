@@ -1,7 +1,7 @@
 h1 {
-  color: rgb(255, 255, 255);
+  color: #1a1a1a;
   font-size: 3em;
-  text-shadow: 0.1em 0.1em 0.1em #000;
+ 
 }
 
 .hero-text {
@@ -9,7 +9,7 @@ h1 {
   top: 57%;
   left: 65%;
   transform: translate(-50%, -50%);
-  color: rgb(255, 255, 255);
+  color: #1a1a1a;
 }
 
 .head-shot {

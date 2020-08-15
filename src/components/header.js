@@ -18,7 +18,7 @@ const Header = () => {
         </Nav.Item>
         <Nav.Item
           border="primary"
-          className="nav-menu btn btn-sm btn-outline-light btn-dark"
+          className="nav-menu "
         >
           <Nav.Link className="nav-menu-link" href="/">
             Home
@@ -26,7 +26,7 @@ const Header = () => {
         </Nav.Item>
         <Nav.Item
           border="primary"
-          className="nav-menu btn btn-sm btn-outline-light btn-dark"
+          className="nav-menu "
         >
           <Nav.Link className="nav-menu-link" href="/portfolio">
             Portfolio
@@ -34,7 +34,7 @@ const Header = () => {
         </Nav.Item>
         <Nav.Item
           border="primary"
-          className="nav-menu btn btn-sm btn-outline-light btn-dark"
+          className="nav-menu "
         >
           <Nav.Link className="nav-menu-link" href="/services">
             Services
@@ -47,7 +47,7 @@ const Header = () => {
         </Nav.Item>
         <Nav.Item
           border="primary"
-          className="nav-menu btn btn-sm btn-outline-light btn-dark"
+          className="nav-menu "
         >
           <Nav.Link className="nav-menu-link" href="/about">
             About Me
@@ -55,7 +55,7 @@ const Header = () => {
         </Nav.Item>
         <Nav.Item
           border="primary"
-          className="nav-menu btn btn-sm btn-outline-light btn-dark"
+          className="nav-menu"
         >
           <Nav.Link className="nav-menu-link" href="/contact">
             Contact Me
@@ -63,7 +63,7 @@ const Header = () => {
         </Nav.Item>
         <Nav.Item
           border="primary"
-          className="nav-menu btn btn-sm btn-outline-light btn-dark"
+          className="nav-menu "
         >
           <Nav.Link
             className="nav-menu-link"

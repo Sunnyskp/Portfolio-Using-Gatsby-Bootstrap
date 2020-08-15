@@ -1,12 +1,10 @@
 html,
 body {
+  color: #1a1a1a;
   height: 100%;
   margin-left: auto;
   margin-right: auto;
-  background: #fcfcfc;
+  background-color: #fcfcfc;
   background-size: cover;
-  background: -webkit-linear-gradient(#353838, #383a3b);
-  background: -moz-linear-gradient(#32695d, #376b94);
-  background: linear-gradient(#243834, #1a5685);
   overflow: auto;
 }

@@ -62,31 +62,29 @@ const Portfolio = () => {
                 </a>
               </div>
             </div>
+          
             <div className="card">
-              <img
-                rounded
-                className="card-img rounded-top"
-                src={PL}
-                alt="Card img cap"
-              />
-              <div className="card-body">
-                <h5 className="card-title">My Portfolio</h5>
-                <p className="card-text text-justify">
-                  This is my portfolio website and this website is developed
-                  using frameworks such as React, GatsbyJS, Bootstrap,
-                  React-Bootstrap ...etc.
-                </p>
-              </div>
-              <div className="card-footer">
-                <a
-                  href="https://www.sunnyskp.ca"
-                  className="stretched-link"
-                  target="_blank"
-                >
-                  <em>Go to My Portfolio</em>
-                </a>
-              </div>
+            <img rounded className="card-img" src={WOW} alt="Card img cap" />
+            <div className="card-body">
+              <h5 className="card-title">World of Wonders(WOW)</h5>
+              <p className="card-text text-justify">
+                Once completed, WOW will be a travel website that allows people
+                to book rooms around the world. It is developed using languages
+                and frameworks like NodeJS, Express, MongoDB,
+                Express-HandleBars...etc.
+              </p>
             </div>
+            <div className="card-footer">
+              <a
+                href="https://github.com/Sunnyskp/WOW-World-Of-Wonders-Room-stay-website.git"
+                className="stretched-link"
+                target="_blank"
+              >
+                <em>Go to World of Wonders (WOW) - GitHub</em>
+              </a>
+            </div>
+          </div>
+        </div>
           </div>
         </div>
 
@@ -144,27 +142,30 @@ const Portfolio = () => {
             </div>
           </div>
           <div className="card">
-            <img rounded className="card-img" src={WOW} alt="Card img cap" />
-            <div className="card-body">
-              <h5 className="card-title">World of Wonders(WOW)</h5>
-              <p className="card-text text-justify">
-                Once completed, WOW will be a travel website that allows people
-                to book rooms around the world. It is developed using languages
-                and frameworks like NodeJS, Express, MongoDB,
-                Express-HandleBars...etc.
-              </p>
-            </div>
-            <div className="card-footer">
-              <a
-                href="https://github.com/Sunnyskp/WOW-World-Of-Wonders-Room-stay-website.git"
-                className="stretched-link"
-                target="_blank"
-              >
-                <em>Go to World of Wonders (WOW) - GitHub</em>
-              </a>
-            </div>
-          </div>
-        </div>
+              <img
+                rounded
+                className="card-img rounded-top"
+                src={PL}
+                alt="Card img cap"
+              />
+              <div className="card-body">
+                <h5 className="card-title">My Portfolio</h5>
+                <p className="card-text text-justify">
+                  This is my portfolio website and this website is developed
+                  using frameworks such as React, GatsbyJS, Bootstrap,
+                  React-Bootstrap ...etc.
+                </p>
+              </div>
+              <div className="card-footer">
+                <a
+                  href="https://www.sunnyskp.ca"
+                  className="stretched-link"
+                  target="_blank"
+                >
+                  <em>Go to My Portfolio</em>
+                </a>
+              </div>
+            </div> 
       </div>
 
       <div>
