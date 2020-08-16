@@ -1,5 +1,6 @@
 body,
 html {
+  font-family:'Inria Serif' ;
   width: 100%;
 }
 
@@ -15,7 +16,7 @@ span.d-block.navbar-brand {
 }
 
 .logo-style {
-  background-color: #272727;
+  background-color: #c9c9c9;
   border-radius: 50%;
   width: 6em;
   margin-left: auto;

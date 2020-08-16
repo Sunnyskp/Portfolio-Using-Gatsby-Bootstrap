@@ -1,7 +1,10 @@
+html, body{
+  font-family:'Inria Serif' ;
+}
+
 h1 {
   color: #1a1a1a;
   font-size: 3em;
- 
 }
 
 .hero-text {

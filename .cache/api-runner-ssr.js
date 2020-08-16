@@ -1,4 +1,7 @@
-var plugins = []
+var plugins = [{
+      plugin: require('C:/WebDev/Portfolio-Using-Gatsby-Bootstrap/node_modules/gatsby-plugin-google-fonts/gatsby-ssr'),
+      options: {"plugins":[],"fonts":["Inria Serif"],"display":"swap"},
+    }]
 // During bootstrap, we write requires at top of this file which looks like:
 // var plugins = [
 //   {

@@ -34,14 +34,14 @@ const Home = () => {
                 border="primary"
                 className=" rounded text-dark align-middle"
               >
-                <b>Front-end Web-Developer <br />IT Operations Manager</b>
+                <b>Full-Stack Web-Developer <br />IT Operations Manager</b>
                 
-               <div style={{
-                  
-                   fontStyle: "italic"               }}> <b>
-                  <br />I design and develop solutions that makes people's lives
-                  exciting and simple.
-                </b></div>
+               <div> 
+                 <b>
+                  <br />"I design and develop solutions that makes people's lives
+                  exciting and simple."
+                </b>
+                </div>
               </Card.Text>
 
               <Card.Text
