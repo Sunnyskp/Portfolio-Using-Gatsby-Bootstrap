@@ -74,11 +74,6 @@ const Header = () => {
           </Nav.Link>
         </Nav.Item>
       </Nav>
-      <hr
-        style={{ fontStyle: "italic", height: 4, backgroundColor: "#FFFFFF97" }}
-        border="primary"
-        className="rounded"
-      />
     </Navbar.Brand>
   )
 }
