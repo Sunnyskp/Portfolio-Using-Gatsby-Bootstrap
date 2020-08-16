@@ -23,14 +23,14 @@ h1 {
   background: none;
   border: none;
 }
-@media screen and (max-width: 999px) {
+@media screen and (max-width: 1080px) {
   .card-style {
     display: block;
     background: none;
     border: none;
   }
   .head-shot {
-    width: 12.5em;
+    width: 23em;
     margin: auto;
   }
 
@@ -41,5 +41,12 @@ h1 {
   div.card-body {
     margin: 0;
     text-align: center;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .head-shot {
+    width: 13em;
+    margin: auto;
   }
 }
