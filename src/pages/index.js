@@ -29,13 +29,10 @@ const Home = () => {
               </Card.Title>
               <Card.Text
                 style={{
-                  fontSize: "1.25em",
-                                  }}
+                  fontSize: "1.25em"}}
                 border="primary"
-                className=" rounded text-dark align-middle"
-              >
+                className=" rounded text-dark align-middle">
                 <b>Full-Stack Web-Developer <br />IT Operations Manager</b>
-                
                <div> 
                  <b>
                   <br />"I design and develop solutions that makes people's lives
