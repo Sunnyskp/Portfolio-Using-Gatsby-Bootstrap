@@ -4,7 +4,7 @@ module.exports = {
       resolve: `gatsby-plugin-google-fonts`,
       options: {
         fonts: [
-          `Inria Serif`
+          `Grenze Gotisch`
         ],
         display: 'swap'
       }

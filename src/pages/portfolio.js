@@ -21,7 +21,8 @@ const Portfolio = () => {
     <Layout>
       <Card
         style={{
-          textShadow: "0.02em 0.02em 0.1em #000",
+          
+          textShadow: ".01px .01px 0.05px #ebe5e5",
           backgroundColor: "#F2F2F2",
         }}
         className="rounded text-light text-left"
@@ -58,7 +59,7 @@ const Portfolio = () => {
                   className="stretched-link"
                   target="_blank"
                 >
-                  <em>Go to ABCMovies</em>
+                  Go to ABCMovies
                 </a>
               </div>
             </div>
@@ -80,7 +81,7 @@ const Portfolio = () => {
                 className="stretched-link"
                 target="_blank"
               >
-                <em>Go to World of Wonders (WOW) - GitHub</em>
+                Go to World of Wonders (WOW) - GitHub
               </a>
             </div>
           </div>
@@ -110,7 +111,7 @@ const Portfolio = () => {
                   className="stretched-link"
                   target="_blank"
                 >
-                  <em>Go to Redesigned-Facebook</em>
+                  Go to Redesigned-Facebook
                 </a>
               </div>
             </div>
@@ -136,7 +137,7 @@ const Portfolio = () => {
                   className="stretched-link"
                   target="_blank"
                 >
-                  <em>Go to Label Expert Academy (LEA)</em>
+                  Go to Label Expert Academy (LEA)
                 </a>
               </div>
             </div>
@@ -162,7 +163,7 @@ const Portfolio = () => {
                   className="stretched-link"
                   target="_blank"
                 >
-                  <em>Go to My Portfolio</em>
+                  Go to My Portfolio
                 </a>
               </div>
             </div> 
@@ -210,7 +211,7 @@ const Portfolio = () => {
                     className="stretched-link"
                     target="_blank"
                   >
-                    <em>Go to Durafastlabel.ca</em>
+                    Go to Durafastlabel.ca
                   </a>
                 </div>
               </div>
@@ -237,7 +238,7 @@ const Portfolio = () => {
                     className="stretched-link"
                     target="_blank"
                   >
-                    <em>Go to Argonstore.ca</em>
+                    Go to Argonstore.ca
                   </a>
                 </div>
               </div>
@@ -266,7 +267,7 @@ const Portfolio = () => {
                     className="stretched-link"
                     target="_blank"
                   >
-                    <em>Go to Optimedialabs.ca</em>
+                    Go to Optimedialabs.ca
                   </a>
                 </div>
               </div>
@@ -302,7 +303,7 @@ const Portfolio = () => {
                     className="stretched-link"
                     target="_blank"
                   >
-                    <em>Go to Durafastlabel.com</em>
+                    Go to Durafastlabel.com
                   </a>
                 </div>
               </div>
@@ -332,7 +333,7 @@ const Portfolio = () => {
                     className="stretched-link"
                     target="_blank"
                   >
-                    <em>Go to Argonstore.com</em>
+                    Go to Argonstore.com
                   </a>
                 </div>
               </div>
@@ -363,7 +364,7 @@ const Portfolio = () => {
                     className="stretched-link"
                     target="_blank"
                   >
-                    <em>Go to Optimedialabs.com</em>
+                    Go to Optimedialabs.com
                   </a>
                 </div>
               </div>

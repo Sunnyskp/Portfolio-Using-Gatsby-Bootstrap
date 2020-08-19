@@ -24,15 +24,15 @@ const Home = () => {
               <Card.Title>
                 <h1 className="text-dark">
                   {" "}
-                  <b>Sunny Krishnan Pillai</b>{" "}
+                  Sunny Krishnan Pillai{" "}
                 </h1>
               </Card.Title>
               <Card.Text
                 style={{
-                  fontSize: "1.25em"}}
+                  fontSize: "1.5em"}}
                 border="primary"
                 className=" rounded text-dark align-middle">
-                <b>Full-Stack Web-Developer <br />IT Operations Manager</b>
+                Full-Stack Web-Developer | IT Operations Manager
                <div> 
                  <b>
                   <br />"I design and develop solutions that makes people's lives
@@ -45,7 +45,7 @@ const Home = () => {
                 className="text-justify"
                 style={{
                   paddingBottom: "1em",
-                  fontSize: "1.15em",
+                  fontSize: "1.35em",
                 }}
               ><br />
                 Over Eight Years of Experience with leading international

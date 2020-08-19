@@ -1,6 +1,6 @@
 body,
 html {
-  font-family:'Inria Serif' ;
+  font-family: 'Grenze Gotisch', cursive;
   width: 100%;
 }
 
@@ -34,9 +34,9 @@ span.d-block.navbar-brand {
 .nav-menu-link {
   margin: auto;
   color: #111111;
-  font-size: 1.1em;
+  font-size: 1.5em;
   font-weight: bold;
-  text-shadow: .5px .5px 1.15px #111111;
+  text-shadow: .01px .01px 0.05px #ebe5e5;
 }
 
 .logo-style-nav-mobile {

@@ -1,10 +1,10 @@
 html, body{
-  font-family:'Inria Serif' ;
+  font-family: 'Grenze Gotisch', cursive;
 }
 
 h1 {
   color: #1a1a1a;
-  font-size: 3em;
+  font-size: 3.5em;
 }
 
 .hero-text {
@@ -30,12 +30,12 @@ h1 {
     border: none;
   }
   .head-shot {
-    width: 23em;
+    width: 21em;
     margin: auto;
   }
 
   .herotext-style {
-    font-size: 1em;
+    font-size: 2em;
   }
 
   div.card-body {
