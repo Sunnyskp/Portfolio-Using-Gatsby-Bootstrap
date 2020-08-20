@@ -14,7 +14,7 @@ const Home = () => {
         <div class="col-lg">
           <Card className=" mx-auto text-black text-center card-style head-shot-style">
             <Card.Body>
-              <Image src={Sunny} className="head-shot" rounded />
+            <br/><br/><Image src={Sunny} className="head-shot" rounded />
             </Card.Body>
           </Card>
         </div>
@@ -22,6 +22,7 @@ const Home = () => {
           <Card className=" mx-auto text-black text-left card-style head-shot-style">
             <Card.Body>
               <Card.Title>
+              <br/><br/>
                 <h1 className="text-dark">
                   {" "}
                   Sunny Krishnan Pillai{" "}

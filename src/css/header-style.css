@@ -1,12 +1,19 @@
 body,
 html {
   font-family: 'Grenze Gotisch', cursive;
+  text-shadow:  rgba(10,10,10,10);
   width: 100%;
 }
 
 .headerstyle {
   background-color: #e3e9e9;
   background-size: cover;
+  background: -webkit-linear-gradient(70deg, #d9d9db  30%, rgba(0,0,0,0) 30%), -webkit-linear-gradient(30deg, #63e89e 60%, #ff7ee3 60%);
+  background: -o-linear-gradient(70deg, #d9d9db  30%, rgba(0,0,0,0) 30%), -o-linear-gradient(30deg, #63e89e 60%, #ff7ee3 60%);
+  background: -moz-linear-gradient(70deg, #d9d9db   30%, rgba(0,0,0,0) 30%), -moz-linear-gradient(30deg, #63e89e 60%, #ff7ee3 60%);
+  background: linear-gradient(70deg, #d9d9db   30%, rgba(0,0,0,0) 30%), linear-gradient(30deg, #63e89e 60%, #c2bdc1 60%);
+  
+
   }
 
 span.d-block.navbar-brand {
@@ -16,12 +23,19 @@ span.d-block.navbar-brand {
 }
 
 .logo-style {
-  background-color: #928e8e;
+  background:
+        linear-gradient(rgb(180, 50, 50), transparent),
+        linear-gradient(to top left, rgb(232, 234, 235), transparent),
+        linear-gradient(to top right, blue, transparent);
+    background-blend-mode: screen;
   border-radius: 50%;
   width: 3.45em;
   margin-left: auto;
   margin-right: auto;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
   align-self: center;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 }
 
 .nav-menu {
@@ -29,6 +43,8 @@ span.d-block.navbar-brand {
   margin: auto;
   font-size: 1em;
   font-weight: bold;
+  
+  
 }
 
 .nav-menu-link {
@@ -36,7 +52,7 @@ span.d-block.navbar-brand {
   color: #111111;
   font-size: 1.5em;
   font-weight: bold;
-  text-shadow: .01px .01px 0.05px #ebe5e5;
+  text-shadow: 1.5px 1.5px 0px #ebe5e5;
 }
 
 .logo-style-nav-mobile {

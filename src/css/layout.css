@@ -1,11 +1,23 @@
 html,
 body {
   color: #1a1a1a;
+  text-shadow: .15em .25em 0em #ffffff;
   height: 100%;
   margin-left: auto;
   margin-right: auto;
-  background-color: #fcfcfc;
-  background-size: cover;
-  overflow: auto;
+  background: linear-gradient(-45deg, #ffffff, #f8f8f8, #e6e6e6, #fcebeb);
+  background-size: 400% 400%;
+  animation: gradient 7s ease infinite;
   font-family: 'Grenze Gotisch', cursive;
+}
+@keyframes gradient {
+  0% {
+      background-position: 0% 50%;
+  }
+  50% {
+      background-position: 100% 50%;
+  }
+  100% {
+      background-position: 0% 50%;
+  }
 }
