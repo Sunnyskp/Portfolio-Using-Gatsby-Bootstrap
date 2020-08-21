@@ -36,7 +36,7 @@ const Home = () => {
                 Full-Stack Web-Developer | IT Operations Manager
                <div> 
                  <b>
-                  <br />"I design and develop solutions that makes people's lives
+                  <br />"I design and develop solutions that makes YOUR life
                   exciting and simple."
                 </b>
                 </div>

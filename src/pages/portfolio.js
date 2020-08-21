@@ -21,8 +21,7 @@ const Portfolio = () => {
     <Layout>
       <Card
         style={{
-          
-          textShadow: ".01px .01px 0.05px #ebe5e5",
+          textShadow: "0.02em 0.02em 0.1em #000",
           backgroundColor: "#F2F2F2",
         }}
         className="rounded text-light text-left"
@@ -59,33 +58,35 @@ const Portfolio = () => {
                   className="stretched-link"
                   target="_blank"
                 >
-                  Go to ABCMovies
+                  <em>Go to ABCMovies</em>
                 </a>
               </div>
             </div>
-          
             <div className="card">
-            <img rounded className="card-img" src={WOW} alt="Card img cap" />
-            <div className="card-body">
-              <h5 className="card-title">World of Wonders(WOW)</h5>
-              <p className="card-text text-justify">
-                Once completed, WOW will be a travel website that allows people
-                to book rooms around the world. It is developed using languages
-                and frameworks like NodeJS, Express, MongoDB,
-                Express-HandleBars...etc.
-              </p>
+              <img
+                rounded
+                className="card-img rounded-top"
+                src={PL}
+                alt="Card img cap"
+              />
+              <div className="card-body">
+                <h5 className="card-title">My Portfolio</h5>
+                <p className="card-text text-justify">
+                  This is my portfolio website and this website is developed
+                  using frameworks such as React, GatsbyJS, Bootstrap,
+                  React-Bootstrap ...etc.
+                </p>
+              </div>
+              <div className="card-footer">
+                <a
+                  href="https://www.sunnyskp.ca"
+                  className="stretched-link"
+                  target="_blank"
+                >
+                  <em>Go to My Portfolio</em>
+                </a>
+              </div>
             </div>
-            <div className="card-footer">
-              <a
-                href="https://github.com/Sunnyskp/WOW-World-Of-Wonders-Room-stay-website.git"
-                className="stretched-link"
-                target="_blank"
-              >
-                Go to World of Wonders (WOW) - GitHub
-              </a>
-            </div>
-          </div>
-        </div>
           </div>
         </div>
 
@@ -111,7 +112,7 @@ const Portfolio = () => {
                   className="stretched-link"
                   target="_blank"
                 >
-                  Go to Redesigned-Facebook
+                  <em>Go to Redesigned-Facebook</em>
                 </a>
               </div>
             </div>
@@ -137,36 +138,33 @@ const Portfolio = () => {
                   className="stretched-link"
                   target="_blank"
                 >
-                  Go to Label Expert Academy (LEA)
+                  <em>Go to Label Expert Academy (LEA)</em>
                 </a>
               </div>
             </div>
           </div>
           <div className="card">
-              <img
-                rounded
-                className="card-img rounded-top"
-                src={PL}
-                alt="Card img cap"
-              />
-              <div className="card-body">
-                <h5 className="card-title">My Portfolio</h5>
-                <p className="card-text text-justify">
-                  This is my portfolio website and this website is developed
-                  using frameworks such as React, GatsbyJS, Bootstrap,
-                  React-Bootstrap ...etc.
-                </p>
-              </div>
-              <div className="card-footer">
-                <a
-                  href="https://www.sunnyskp.ca"
-                  className="stretched-link"
-                  target="_blank"
-                >
-                  Go to My Portfolio
-                </a>
-              </div>
-            </div> 
+            <img rounded className="card-img" src={WOW} alt="Card img cap" />
+            <div className="card-body">
+              <h5 className="card-title">World of Wonders(WOW)</h5>
+              <p className="card-text text-justify">
+                Once completed, WOW will be a travel website that allows people
+                to book rooms around the world. It is developed using languages
+                and frameworks like NodeJS, Express, MongoDB,
+                Express-HandleBars...etc.
+              </p>
+            </div>
+            <div className="card-footer">
+              <a
+                href="https://github.com/Sunnyskp/WOW-World-Of-Wonders-Room-stay-website.git"
+                className="stretched-link"
+                target="_blank"
+              >
+                <em>Go to World of Wonders (WOW) - GitHub</em>
+              </a>
+            </div>
+          </div>
+        </div>
       </div>
 
       <div>
@@ -211,7 +209,7 @@ const Portfolio = () => {
                     className="stretched-link"
                     target="_blank"
                   >
-                    Go to Durafastlabel.ca
+                    <em>Go to Durafastlabel.ca</em>
                   </a>
                 </div>
               </div>
@@ -238,7 +236,7 @@ const Portfolio = () => {
                     className="stretched-link"
                     target="_blank"
                   >
-                    Go to Argonstore.ca
+                    <em>Go to Argonstore.ca</em>
                   </a>
                 </div>
               </div>
@@ -267,7 +265,7 @@ const Portfolio = () => {
                     className="stretched-link"
                     target="_blank"
                   >
-                    Go to Optimedialabs.ca
+                    <em>Go to Optimedialabs.ca</em>
                   </a>
                 </div>
               </div>
@@ -303,7 +301,7 @@ const Portfolio = () => {
                     className="stretched-link"
                     target="_blank"
                   >
-                    Go to Durafastlabel.com
+                    <em>Go to Durafastlabel.com</em>
                   </a>
                 </div>
               </div>
@@ -333,7 +331,7 @@ const Portfolio = () => {
                     className="stretched-link"
                     target="_blank"
                   >
-                    Go to Argonstore.com
+                    <em>Go to Argonstore.com</em>
                   </a>
                 </div>
               </div>
@@ -364,7 +362,7 @@ const Portfolio = () => {
                     className="stretched-link"
                     target="_blank"
                   >
-                    Go to Optimedialabs.com
+                    <em>Go to Optimedialabs.com</em>
                   </a>
                 </div>
               </div>
