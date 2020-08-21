@@ -14,7 +14,7 @@ const Home = () => {
         <div class="col-lg">
           <Card className=" mx-auto text-black text-center card-style head-shot-style">
             <Card.Body>
-            <br/><br/><Image src={Sunny} className="head-shot" rounded />
+            <br/><br/><Image src={Sunny} className="head-shot"/>
             </Card.Body>
           </Card>
         </div>
