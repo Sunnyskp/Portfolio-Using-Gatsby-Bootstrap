@@ -23,11 +23,9 @@ span.d-block.navbar-brand {
 }
 
 .logo-style {
-  background:
-        linear-gradient(rgb(82, 79, 79), transparent),
-        linear-gradient(to top left, rgb(232, 234, 235), transparent),
-        linear-gradient(to top right, rgb(187, 187, 190), transparent);
-    background-blend-mode: screen;
+  background: linear-gradient(-45deg, #ffffff, #e76464, #cecf9b, #1100ff);
+  background-size: 400% 400%;
+  animation: gradient 7s ease infinite;
   border-radius: 50%;
   width: 3.5em;
   margin-left: auto;
