@@ -17,6 +17,7 @@ h1 {
 
 .head-shot {
   width: 22em;
+  border-radius: 1rem;
 }
 
 .card-style {
