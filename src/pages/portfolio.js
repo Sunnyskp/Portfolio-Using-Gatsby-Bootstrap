@@ -134,7 +134,7 @@ const Portfolio = () => {
               </div>
               <div className="card-footer">
                 <a
-                  href="https://www.labelexpertacademy.sunnyskp.ca"
+                  href="https://sunnyskp.github.io/LEA/"
                   className="stretched-link"
                   target="_blank"
                 >
