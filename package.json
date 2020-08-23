@@ -9,19 +9,20 @@
     "develop": "gatsby develop",
     "format": "prettier --write src/**/*.{js,jsx}",
     "start": "npm run develop",
-    "serve": "gatsby serve"
+    "serve": "gatsby serve",
+    "deploy": "gatsby build --prefix-paths && gh-pages -d public"
   },
   "dependencies": {
     "bootstrap": "^4.3.1",
     "gatsby": "^2.13.39",
     "gatsby-plugin-google-fonts": "^1.0.1",
-    "gh-pages": "^3.1.0",
     "react": "^16.8.6",
     "react-bootstrap": "^1.0.0-beta.10",
     "react-burger-menu": "^2.7.1",
     "react-dom": "^16.8.6"
   },
   "devDependencies": {
+    "gh-pages": "^3.1.0",
     "prettier": "^1.18.2"
   },
   "repository": {

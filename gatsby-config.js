@@ -9,5 +9,6 @@ module.exports = {
         display: 'swap'
       }
     }
-  ]
+  ],
+  pathPrefix: "/PUG",
 }
