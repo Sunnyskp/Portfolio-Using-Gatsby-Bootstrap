@@ -4,15 +4,12 @@
   "description": "My portfolio website",
   "version": "0.1.0",
   "license": "MIT",
-
-"homepage": "https://sunnyskp.github.io/Portfolio-Using-Gatsby-Bootstrap/",
   "scripts": {
     "build": "gatsby build",
     "develop": "gatsby develop",
     "format": "prettier --write src/**/*.{js,jsx}",
     "start": "npm run develop",
-    "serve": "gatsby serve",
-    "deploy":"gh-pages -d public"
+    "serve": "gatsby serve"
   },
   "dependencies": {
     "bootstrap": "^4.3.1",
