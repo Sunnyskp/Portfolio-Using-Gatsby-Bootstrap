@@ -12,7 +12,7 @@ const Header = () => {
         activeKey="/home"
       >
         <Nav.Item className="nav-menu logo-style-nav-mobile">
-          <Nav.Link className="nav-menu-link" href="/">
+          <Nav.Link className="nav-menu-link" href="/PUG">
             <img src={Logo} className="logo-style" alt="" />
           </Nav.Link>
         </Nav.Item>
@@ -20,7 +20,7 @@ const Header = () => {
           border="primary"
           className="nav-menu "
         >
-          <Nav.Link className="nav-menu-link" href="/">
+          <Nav.Link className="nav-menu-link" href="/PUG">
             Home
           </Nav.Link>
         </Nav.Item>
@@ -28,7 +28,7 @@ const Header = () => {
           border="primary"
           className="nav-menu "
         >
-          <Nav.Link className="nav-menu-link" href="/portfolio">
+          <Nav.Link className="nav-menu-link" href="PUG/portfolio">
             Portfolio
           </Nav.Link>
         </Nav.Item>
@@ -36,7 +36,7 @@ const Header = () => {
           border="primary"
           className="nav-menu "
         >
-          <Nav.Link className="nav-menu-link" href="/services">
+          <Nav.Link className="nav-menu-link" href="PUG/services">
             Services
           </Nav.Link>
         </Nav.Item>
@@ -49,7 +49,7 @@ const Header = () => {
           border="primary"
           className="nav-menu "
         >
-          <Nav.Link className="nav-menu-link" href="/about">
+          <Nav.Link className="nav-menu-link" href="PUG/about">
             About Me
           </Nav.Link>
         </Nav.Item>
@@ -57,7 +57,7 @@ const Header = () => {
           border="primary"
           className="nav-menu"
         >
-          <Nav.Link className="nav-menu-link" href="/contact">
+          <Nav.Link className="nav-menu-link" href="PUG/contact">
             Contact Me
           </Nav.Link>
         </Nav.Item>

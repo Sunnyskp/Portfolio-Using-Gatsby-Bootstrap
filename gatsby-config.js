@@ -10,5 +10,9 @@ module.exports = {
       }
     }
   ],
-  pathPrefix: "/"
+  pathPrefix: "/PUG/",
+  pathPrefix: "/PUG/about",
+  pathPrefix: "/PUG/contact",
+  pathPrefix: "/PUG/portfolio",
+  pathPrefix: "/PUG/services"
 }
