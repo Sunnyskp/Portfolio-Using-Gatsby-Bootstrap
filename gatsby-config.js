@@ -10,6 +10,6 @@ module.exports = {
       }
     }
   ],
-  pathPrefix: "/PUG",
-  pathPrefix: "/portfolio",
+  pathPrefix: "/PUG/",
+  pathPrefix: "/PUG/portfolio"
 }
