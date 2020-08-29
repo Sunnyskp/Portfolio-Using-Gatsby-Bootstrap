@@ -33,7 +33,7 @@ const Home = () => {
                   fontSize: "1.5em"}}
                 border="primary"
                 className=" rounded text-dark align-middle">
-                Full-Stack Web-Developer | IT Operations Manager
+                Full-Stack Web-Developer | IT / Operations Manager
                <div> 
                  <b>
                   <br />"I design and develop solutions that makes YOUR life

@@ -12,8 +12,7 @@ const About = () => {
       >
         <Card.Body>
           <Card.Title>
-            Full Stack Web-Developer | IT Administrator | E-commerce Business
-            Development | Software Engineer
+            Full Stack Web-Developer | IT / Operations Manager | Software Engineer
           </Card.Title>
           <Card.Subtitle className="mb-2">Toronto, Canada Area</Card.Subtitle>
         </Card.Body>
