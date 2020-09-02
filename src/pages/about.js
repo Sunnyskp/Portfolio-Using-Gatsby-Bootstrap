@@ -93,7 +93,7 @@ const About = () => {
         border="primary"
       >
         <Card.Body>
-          <Card.Title>IT Administrator / Technical Support.</Card.Title>
+          <Card.Title>IT / Operations Manager.</Card.Title>
           <Card.Subtitle className="mb-2">
             Sector Nine Distribution Limited - Toronto ON - Canada (January 2018
             – Present)

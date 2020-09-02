@@ -129,8 +129,7 @@ const Contact = () => {
             <h5>
               If you wanna get in touch, talk to me about a project
               collaboration or just say hi, send an email to{" "}
-              <em>contact@sunnyskp.ca</em>, call me at
-              <em> +1 (437) 772 3637</em> and ~let's talk.
+              <em>skp2june@gmail.com</em>.
             </h5>
           </Card.Text>
         </Card.Footer>
