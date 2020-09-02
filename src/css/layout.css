@@ -1,11 +1,11 @@
 html,
 body {
   color: #1a1a1a;
-  text-shadow: .15em .15em 0em #ffffff;
-  height: 100%;
+  text-shadow: .1em .1em 0em #d1cbcb;
+  height: 1%;
   margin-left: auto;
   margin-right: auto;
-  background: linear-gradient(-45deg, #485aff, #f8f8f8, #e6e6e6, #9e9a9a);
+  background: linear-gradient(-45deg, #485aff, #f8f8f8, #e6e6e6, #cfcdcd);
   background-size: 400% 400%;
   animation: gradient 7s ease infinite;
   font-family: 'Grenze Gotisch', cursive;
