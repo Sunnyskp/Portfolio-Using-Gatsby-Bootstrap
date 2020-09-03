@@ -1,4 +1,4 @@
-import React from "React"
+import React from "react"
 import { Navbar } from "react-bootstrap"
 
 const Footer = () => {

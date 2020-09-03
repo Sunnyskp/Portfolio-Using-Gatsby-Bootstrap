@@ -1,4 +1,4 @@
-import React from "React"
+import React from "react"
 import Logo from "../images/S-logo.png"
 import { Navbar, Nav } from "react-bootstrap"
 import "../css/header-style.css"
