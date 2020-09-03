@@ -1,4 +1,4 @@
-import React from "React"
+import React from "react"
 import { Card, ListGroup } from "react-bootstrap"
 import Layout from "../components/Layout"
 

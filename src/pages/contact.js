@@ -1,4 +1,4 @@
-import React from "React"
+import React from "react"
 import { Card, CardDeck, Container, Row, Col, Image } from "react-bootstrap"
 import LinkedIn from "../images/Linkedin.svg"
 import Facebook from "../images/Facebook.svg"

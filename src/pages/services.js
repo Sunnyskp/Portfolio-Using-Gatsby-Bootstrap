@@ -1,4 +1,4 @@
-import React from "React"
+import React from "react"
 import SEO from "../images/seo.jpg"
 import WD from "../images/web-design.jpg"
 import WDM from "../images/web-development.jpg"
