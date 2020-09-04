@@ -1,6 +1,8 @@
 import React from "react"
 import { Card, ListGroup } from "react-bootstrap"
 import Layout from "../components/Layout"
+import CF from "../images/conf-fly.png"
+import DuraCanada from "../images/df.ca.png"
 
 const About = () => {
   return (
@@ -95,7 +97,7 @@ const About = () => {
         <Card.Body>
           <Card.Title>IT / Operations Manager.</Card.Title>
           <Card.Subtitle className="mb-2">
-            Sector Nine Distribution Limited - Toronto ON - Canada (January 2018
+            DuraFastLabel Company - Toronto ON - Canada (January 2018
             – Present)
           </Card.Subtitle>
           <Card.Text>
@@ -117,7 +119,33 @@ const About = () => {
               </ListGroup.Item>
             </ListGroup>
           </Card.Text>
-        </Card.Body>
+        
+          <div className="card">
+              <img
+                rounded
+                className="card-img rounded-top"
+                src={DuraCanada}
+                alt="Card img cap"
+              />
+              <div className="card-body">
+                <h5 className="card-title">DuraFastLabel Company</h5>
+                <p className="card-text text-justify">
+                DuraFast Label Company was founded in 2012 with a simple mission of providing durable, colorfast labels to the growing do-it-yourself label production market, DuraFast™ Label Company is a Canadian company based in Etobicoke, Ontario. 
+                </p>
+              </div>
+              <div className="card-footer">
+                <a
+                  href="https://www.durafastlabel.com/"
+                  className="stretched-link"
+                  target="_blank"
+                >
+                  <em>Go to DuraFastLabel.ca</em>
+                </a>
+              </div>
+            </div>
+           
+       </Card.Body>
+      
       </Card>
       <Card
         style={{  backgroundColor: "#F2F2F2" }}
@@ -168,6 +196,30 @@ const About = () => {
               </ListGroup.Item>
             </ListGroup>
           </Card.Text>
+          <div className="card">
+              <img
+                rounded
+                className="card-img rounded-top"
+                src={CF}
+                alt="Card img cap"
+              />
+              <div className="card-body">
+                <h5 className="card-title">Confirmfly.com</h5>
+                <p className="card-text text-justify">
+                Confirmfly.com's cutting edge technology provides better airlines and hotel’s price combination to match your needs with better fares. 
+                </p>
+              </div>
+              <div className="card-footer">
+                <a
+                  href="https://confirmfly.com/"
+                  className="stretched-link"
+                  target="_blank"
+                >
+                  <em>Go to Confirmfly.com</em>
+                </a>
+              </div>
+            </div>
+           
         </Card.Body>
       </Card>
       <Card
