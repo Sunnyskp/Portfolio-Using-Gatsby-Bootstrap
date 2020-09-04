@@ -28,69 +28,13 @@ const Portfolio = () => {
       >
         <Card.Body>
           <h4 className="text-dark">
-            <b>Projects Developed By Me</b>
+            Projects Developed By Me
           </h4>
         </Card.Body>
       </Card>
 
       <div className="container">
-        <div className="row">
-          <div className="card-deck">
-            <div className="card">
-              <img
-                rounded
-                className="card-img rounded-top"
-                src={ABCMovies}
-                alt="Card img cap"
-              />
-              <div className="card-body">
-                <h5 className="card-title">ABCMovies</h5>
-                <p className="card-text text-justify">
-                  ABC Movies is a simple REST API movie website that provides
-                  capsule information about 100s of movies across north America.
-                  All movies data and information are fetched from the free
-                  TheMovieDB’s Now Playing API.
-                </p>
-              </div>
-              <div className="card-footer">
-                <a
-                  href="https://www.abcmovies.sunnyskp.ca"
-                  className="stretched-link"
-                  target="_blank"
-                >
-                  <em>Go to ABCMovies</em>
-                </a>
-              </div>
-            </div>
-            <div className="card">
-              <img
-                rounded
-                className="card-img rounded-top"
-                src={PL}
-                alt="Card img cap"
-              />
-              <div className="card-body">
-                <h5 className="card-title">My Portfolio</h5>
-                <p className="card-text text-justify">
-                  This is my portfolio website and this website is developed
-                  using frameworks such as React, GatsbyJS, Bootstrap,
-                  React-Bootstrap ...etc.
-                </p>
-              </div>
-              <div className="card-footer">
-                <a
-                  href="https://www.sunnyskp.ca"
-                  className="stretched-link"
-                  target="_blank"
-                >
-                  <em>Go to My Portfolio</em>
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div className="row">
+      <div className="row">
           <div className="card-deck">
             <div className="card">
               <img
@@ -108,7 +52,7 @@ const Portfolio = () => {
               </div>
               <div className="card-footer">
                 <a
-                  href="https://www.redesignfacebook.sunnyskp.ca"
+                  href="https://adoring-easley-6fc6eb.netlify.app/"
                   className="stretched-link"
                   target="_blank"
                 >
@@ -143,6 +87,63 @@ const Portfolio = () => {
               </div>
             </div>
           </div>
+        </div>
+      
+
+        <div className="row">
+          <div className="card-deck">
+            <div className="card">
+              <img
+                rounded
+                className="card-img rounded-top"
+                src={ABCMovies}
+                alt="Card img cap"
+              />
+              <div className="card-body">
+                <h5 className="card-title">ABCMovies</h5>
+                <p className="card-text text-justify">
+                  ABC Movies is a simple REST API movie website that provides
+                  capsule information about 100s of movies across north America.
+                  All movies data and information are fetched from the free
+                  TheMovieDB’s Now Playing API.
+                </p>
+              </div>
+              <div className="card-footer">
+                <a
+                  href="https://serene-shirley-15b58e.netlify.app/"
+                  className="stretched-link"
+                  target="_blank"
+                >
+                  <em>Go to ABCMovies</em>
+                </a>
+              </div>
+            </div>
+            <div className="card">
+              <img
+                rounded
+                className="card-img rounded-top"
+                src={PL}
+                alt="Card img cap"
+              />
+              <div className="card-body">
+                <h5 className="card-title">My Portfolio</h5>
+                <p className="card-text text-justify">
+                  This is my portfolio website and this website is developed
+                  using frameworks such as React, GatsbyJS, Bootstrap,
+                  React-Bootstrap ...etc.
+                </p>
+              </div>
+              <div className="card-footer">
+                <a
+                  href="https://www.sunnydevs.com/"
+                  className="stretched-link"
+                  target="_blank"
+                >
+                  <em>Go to My Portfolio</em>
+                </a>
+              </div>
+            </div>
+          </div>
           <div className="card">
             <img rounded className="card-img" src={WOW} alt="Card img cap" />
             <div className="card-body">
@@ -164,7 +165,11 @@ const Portfolio = () => {
               </a>
             </div>
           </div>
+        
         </div>
+
+        
+      
       </div>
 
       <div>
@@ -177,7 +182,7 @@ const Portfolio = () => {
         >
           <Card.Body>
             <h4 className="text-dark">
-              <b>Projects Managed By Me</b>
+            Projects Managed By Me
             </h4>
           </Card.Body>
         </Card>

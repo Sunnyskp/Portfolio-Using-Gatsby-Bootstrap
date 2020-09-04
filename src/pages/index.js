@@ -46,7 +46,7 @@ const Home = () => {
                 className="text-justify"
                 style={{
                   paddingBottom: "1em",
-                  fontSize: "1.35em",
+                  fontSize: "1.2rem",
                 }}
               ><br />
                 Over Eight Years of Experience with leading international
