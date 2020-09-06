@@ -2,8 +2,8 @@ import React from "react"
 import { Card, ListGroup } from "react-bootstrap"
 import Layout from "../components/Layout"
 import CF from "../images/conf-fly.png"
-import JT from "../images/JT.png"
-import TR from "../images/TR.png"
+import JT from "../images/JT.jpg"
+import TR from "../images/TR.jpg"
 import DuraCanada from "../images/df.ca.png"
 
 const About = () => {
