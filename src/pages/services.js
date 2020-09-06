@@ -4,10 +4,8 @@ import WD from "../images/web-design.jpg"
 import WDM from "../images/web-development.jpg"
 import EC from "../images/ecommerce.jpg"
 import UI from "../images/UI.jpg"
-import PL from "../images/s-logo-card.png"
 import Layout from "../components/Layout"
 import "bootstrap/dist/css/bootstrap.css"
-
 const Services = () => {
   return (
     <Layout>

@@ -2,6 +2,8 @@ import React from "react"
 import { Card, ListGroup } from "react-bootstrap"
 import Layout from "../components/Layout"
 import CF from "../images/conf-fly.png"
+import JT from "../images/JT.png"
+import TR from "../images/TR.png"
 import DuraCanada from "../images/df.ca.png"
 
 const About = () => {
@@ -19,7 +21,6 @@ const About = () => {
           <Card.Subtitle className="mb-2">Toronto, Canada Area</Card.Subtitle>
         </Card.Body>
       </Card>
-
       <Card
         style={{  backgroundColor: "#F2F2F2" }}
         border="primary"
@@ -119,8 +120,7 @@ const About = () => {
               </ListGroup.Item>
             </ListGroup>
           </Card.Text>
-        
-          <div className="card">
+         <div className="card">
               <img
                 rounded
                 className="card-img rounded-top"
@@ -143,10 +143,8 @@ const About = () => {
                 </a>
               </div>
             </div>
-           
-       </Card.Body>
-      
-      </Card>
+    </Card.Body>
+    </Card>
       <Card
         style={{  backgroundColor: "#F2F2F2" }}
         border="primary"
@@ -219,8 +217,7 @@ const About = () => {
                 </a>
               </div>
             </div>
-           
-        </Card.Body>
+  </Card.Body>
       </Card>
       <Card
         style={{  backgroundColor: "#F2F2F2" }}
@@ -273,7 +270,30 @@ const About = () => {
               </ListGroup.Item>
             </ListGroup>
           </Card.Text>
-        </Card.Body>
+          <div className="card">
+              <img
+                rounded
+                className="card-img rounded-top"
+                src={TR}
+                alt="Card img cap"
+              />
+              <div className="card-body">
+                <h5 className="card-title">TravRays B2B Travel Technology</h5>
+                <p className="card-text text-justify">
+                A Technology and Solutions provider for the travel industry. They specialize in building unique and custom tools to the industry.  
+                </p>
+              </div>
+              <div className="card-footer">
+                <a
+                  href="http://travrays.com/Home.html"
+                  className="stretched-link"
+                  target="_blank"
+                >
+                  <em>Go to TravRays Public Page </em>
+                </a>
+              </div>
+            </div>
+         </Card.Body>
       </Card>
       <Card
         style={{  backgroundColor: "#F2F2F2" }}
@@ -306,6 +326,30 @@ const About = () => {
               </ListGroup.Item>
             </ListGroup>
           </Card.Text>
+          <div className="card">
+              <img
+                rounded
+                className="card-img rounded-top"
+                src={JT}
+                alt="Card img cap"
+              />
+              <div className="card-body">
+                <h5 className="card-title">Jubilant Tourism</h5>
+                <p className="card-text text-justify">
+                JUBILANT TOURISM LLC is one of the most leading Tourism Companies in the UAE. Even in an adverse market of Dubai, JUBILANT becomes the leading company which is growing as per the aspiration and expectation of the people. JUBILANT is dashing ahead by introducing new idea and package which no one has ever experienced in the UAE. 
+                </p>
+              </div>
+              <div className="card-footer">
+                <a
+                  href="https://www.jubilanttourism.com/"
+                  className="stretched-link"
+                  target="_blank"
+                >
+                  <em>Go to JubilantTourism.com</em>
+                </a>
+              </div>
+            </div>
+ 
         </Card.Body>
       </Card>
       <Card
@@ -314,8 +358,7 @@ const About = () => {
       >
         <Card.Body>
           <Card.Title>Internships.</Card.Title>
-
-          <Card.Text>
+            <Card.Text>
             <ListGroup>
               <ListGroup.Item border="primary">
                 <Card.Subtitle>

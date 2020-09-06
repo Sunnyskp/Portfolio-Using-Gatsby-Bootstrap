@@ -3,7 +3,6 @@ import Header from "./header"
 import Footer from "./Footer"
 import { Container } from "react-bootstrap"
 import "../css/layout.css"
-
 const Layout = ({ children }) => {
   return (
     <div className="layout-style">
