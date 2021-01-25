@@ -2,7 +2,8 @@ module.exports = {
   plugins: [
 
     {
-      resolve: `gatsby-plugin-google-fonts gatsby-plugin-styled-components`,
+      resolve: `gatsby-plugin-styled-components`,
+      resolve: `gatsby-plugin-google-fonts`,
       options: {
         fonts: [
           `Grenze Gotisch`
