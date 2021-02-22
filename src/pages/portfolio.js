@@ -52,7 +52,7 @@ const Portfolio = () => {
               </div>
               <div className="card-footer">
                 <a
-                  href="https://adoring-easley-6fc6eb.netlify.app/"
+                  href="https://redesign-fb.netlify.app/"
                   className="stretched-link"
                   target="_blank"
                 >
@@ -78,7 +78,7 @@ const Portfolio = () => {
               </div>
               <div className="card-footer">
                 <a
-                  href="https://sunnyskp.github.io/LEA/"
+                  href="https://labelexpertacademy.netlify.app/"
                   className="stretched-link"
                   target="_blank"
                 >
@@ -110,7 +110,7 @@ const Portfolio = () => {
               </div>
               <div className="card-footer">
                 <a
-                  href="https://serene-shirley-15b58e.netlify.app/"
+                  href="https://abcmovies.netlify.app/"
                   className="stretched-link"
                   target="_blank"
                 >
